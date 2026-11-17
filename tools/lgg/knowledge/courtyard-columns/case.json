@@ -1,0 +1,37 @@
+{
+  "id": "courtyard-columns",
+  "title": "多圈庭院与廊柱",
+  "review_status": "pending_user_review",
+  "tags": [
+    "courtyard",
+    "column",
+    "identity"
+  ],
+  "principles": [
+    "将柱础、柱身、柱头归为一根逻辑廊柱，计数与渲染分件分开。",
+    "内外圈来自设计关系，左右顺序来自查询时玩家摄像机。"
+  ],
+  "sources": [
+    {
+      "title": "Vitruvius, Ten Books on Architecture, Book III; Morgan translation (1914)",
+      "url": "https://www.gutenberg.org/files/20239/20239-h/20239-h.htm",
+      "use": "参考柱列、柱间距与柱础/柱头的分件组织；自写说明、自建几何。Project Gutenberg 标注美国公共领域，其他地区使用前核对当地条件。"
+    },
+    {
+      "title": "U.S. Access Board: Chapter 4, Accessible Routes",
+      "url": "https://www.access-board.gov/ada/chapter/ch04/",
+      "use": "仅引用通行、门洞与路线连续性原则；未复制图纸或全文。游戏尺度自行设定，不构成规范符合性证明。"
+    }
+  ],
+  "query": {
+    "role": "column",
+    "ring": "outer",
+    "side": "front",
+    "order": "view_left",
+    "ordinal": 3
+  },
+  "geometry_license": "CC0-1.0",
+  "documentation": "Original LevelControl case notes; source texts are not redistributed.",
+  "runtime_validation": "not_run",
+  "compiled_entity_count": 37
+}

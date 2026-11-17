@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "levelcontrol-tools"
+version = "3.2.0"
+description = "Local AI level design assistant for a running Unreal Engine game"
+authors = [{ name = "hou" }]
+license = { text = "MIT" }
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = ["mcp==1.30.0", "httpx==0.28.1"]
+
+[project.optional-dependencies]
+dev = ["pytest==9.2.0", "ruff==0.17.5"]
+desktop = ["PySide6==6.10.2", "vosk==0.3.45", "PyAudioWPatch==0.2.12.8", "numpy==2.2.6"]
+
+[project.scripts]
+lc = "lc.__main__:main"
+lc-mcp = "lc.mcp_server:main"
+
+[tool.setuptools.packages.find]
+where = ["tools"]
+include = ["lc*", "lgg*", "presenter*", "checks*"]
+
+[tool.setuptools.package-data]
+lc = ["assets/*.svg"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["live: requires a running disposable ProjectLC instance"]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]

@@ -1,0 +1,61 @@
+{
+  "name": "u-courtyard",
+  "intent": "new_structure",
+  "anchor": {
+    "front_m": 3
+  },
+  "nodes": [
+    {
+      "id": "court-ground",
+      "key": "court-ground",
+      "asset": "blockout/box",
+      "at": [
+        0,
+        0,
+        -0.1
+      ],
+      "size": [
+        16,
+        14,
+        0.2
+      ],
+      "semantic": {
+        "name": "court-ground",
+        "role": "floor",
+        "area": "main"
+      }
+    },
+    {
+      "id": "u-walls",
+      "key": "u-walls",
+      "kind": "wall",
+      "at": [
+        0,
+        0,
+        2
+      ],
+      "size": [
+        16,
+        14,
+        4
+      ],
+      "params": {
+        "sides": [
+          "north",
+          "east",
+          "west"
+        ]
+      },
+      "semantic": {
+        "role": "enclosure",
+        "area": "courtyard"
+      }
+    }
+  ],
+  "constraints": [
+    {
+      "kind": "walk_connectivity",
+      "status": "declared"
+    }
+  ]
+}

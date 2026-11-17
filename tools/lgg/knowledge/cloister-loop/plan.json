@@ -1,0 +1,107 @@
+{
+  "name": "cloister-loop",
+  "intent": "new_structure",
+  "anchor": {
+    "front_m": 3
+  },
+  "nodes": [
+    {
+      "id": "north-walk",
+      "key": "north-walk",
+      "asset": "blockout/box",
+      "at": [
+        0,
+        7,
+        -0.1
+      ],
+      "size": [
+        18,
+        4,
+        0.2
+      ],
+      "semantic": {
+        "name": "north-walk",
+        "role": "corridor",
+        "area": "cloister",
+        "side": "north",
+        "ring": "outer",
+        "pattern": "walk-loop"
+      }
+    },
+    {
+      "id": "south-walk",
+      "key": "south-walk",
+      "asset": "blockout/box",
+      "at": [
+        0,
+        -7,
+        -0.1
+      ],
+      "size": [
+        18,
+        4,
+        0.2
+      ],
+      "semantic": {
+        "name": "south-walk",
+        "role": "corridor",
+        "area": "cloister",
+        "side": "south",
+        "ring": "outer",
+        "pattern": "walk-loop"
+      }
+    },
+    {
+      "id": "east-walk",
+      "key": "east-walk",
+      "asset": "blockout/box",
+      "at": [
+        7,
+        0,
+        -0.1
+      ],
+      "size": [
+        4,
+        10,
+        0.2
+      ],
+      "semantic": {
+        "name": "east-walk",
+        "role": "corridor",
+        "area": "cloister",
+        "side": "east",
+        "ring": "outer",
+        "pattern": "walk-loop"
+      }
+    },
+    {
+      "id": "west-walk",
+      "key": "west-walk",
+      "asset": "blockout/box",
+      "at": [
+        -7,
+        0,
+        -0.1
+      ],
+      "size": [
+        4,
+        10,
+        0.2
+      ],
+      "semantic": {
+        "name": "west-walk",
+        "role": "corridor",
+        "area": "cloister",
+        "side": "west",
+        "ring": "outer",
+        "pattern": "walk-loop"
+      }
+    }
+  ],
+  "constraints": [
+    {
+      "kind": "walk_connectivity",
+      "status": "declared"
+    }
+  ]
+}

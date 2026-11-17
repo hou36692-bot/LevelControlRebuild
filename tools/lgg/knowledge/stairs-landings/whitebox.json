@@ -1,0 +1,495 @@
+{
+  "entities": [
+    {
+      "id": "stairs-landings-01-01-00",
+      "source": "stairs-landings",
+      "template": "blockout/box",
+      "group": "lower-platform",
+      "tags": [
+        "build",
+        "lower-platform"
+      ],
+      "semantic": {
+        "name": "lower-platform",
+        "role": "floor",
+        "area": "main",
+        "provenance": "design",
+        "member_key": "/@lower-platform/0",
+        "parent": "stairs-landings-root",
+        "identity_scope": "persistent"
+      },
+      "collision": true,
+      "transform": {
+        "position_cm": [
+          -400.0,
+          450.0,
+          -10.0
+        ],
+        "size_cm": [
+          400.0,
+          300.0,
+          20.0
+        ],
+        "rotation_deg": [
+          0,
+          0.0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "stairs-landings-01-01-02",
+      "source": "stairs-landings",
+      "template": "blockout/box",
+      "group": "stair-flight",
+      "tags": [
+        "build",
+        "stair-flight"
+      ],
+      "semantic": {
+        "area": "transition",
+        "provenance": "design",
+        "role": "step",
+        "name": "stair-flight 1",
+        "parent": "stairs-landings-00-00-01",
+        "member_key": "/@stair-flight/0/0",
+        "identity_scope": "persistent"
+      },
+      "collision": true,
+      "transform": {
+        "position_cm": [
+          -180.0,
+          450.0,
+          10.0
+        ],
+        "size_cm": [
+          40.0,
+          300.0,
+          20.0
+        ],
+        "rotation_deg": [
+          0,
+          0.0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "stairs-landings-01-01-03",
+      "source": "stairs-landings",
+      "template": "blockout/box",
+      "group": "stair-flight",
+      "tags": [
+        "build",
+        "stair-flight"
+      ],
+      "semantic": {
+        "area": "transition",
+        "provenance": "design",
+        "role": "step",
+        "name": "stair-flight 2",
+        "parent": "stairs-landings-00-00-01",
+        "member_key": "/@stair-flight/0/1",
+        "identity_scope": "persistent"
+      },
+      "collision": true,
+      "transform": {
+        "position_cm": [
+          -140.0,
+          450.0,
+          20.0
+        ],
+        "size_cm": [
+          40.0,
+          300.0,
+          40.0
+        ],
+        "rotation_deg": [
+          0,
+          0.0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "stairs-landings-01-01-04",
+      "source": "stairs-landings",
+      "template": "blockout/box",
+      "group": "stair-flight",
+      "tags": [
+        "build",
+        "stair-flight"
+      ],
+      "semantic": {
+        "area": "transition",
+        "provenance": "design",
+        "role": "step",
+        "name": "stair-flight 3",
+        "parent": "stairs-landings-00-00-01",
+        "member_key": "/@stair-flight/0/2",
+        "identity_scope": "persistent"
+      },
+      "collision": true,
+      "transform": {
+        "position_cm": [
+          -100.0,
+          450.0,
+          30.0
+        ],
+        "size_cm": [
+          40.0,
+          300.0,
+          60.0
+        ],
+        "rotation_deg": [
+          0,
+          0.0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "stairs-landings-01-01-05",
+      "source": "stairs-landings",
+      "template": "blockout/box",
+      "group": "stair-flight",
+      "tags": [
+        "build",
+        "stair-flight"
+      ],
+      "semantic": {
+        "area": "transition",
+        "provenance": "design",
+        "role": "step",
+        "name": "stair-flight 4",
+        "parent": "stairs-landings-00-00-01",
+        "member_key": "/@stair-flight/0/3",
+        "identity_scope": "persistent"
+      },
+      "collision": true,
+      "transform": {
+        "position_cm": [
+          -60.0,
+          450.0,
+          40.0
+        ],
+        "size_cm": [
+          40.0,
+          300.0,
+          80.0
+        ],
+        "rotation_deg": [
+          0,
+          0.0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "stairs-landings-01-01-06",
+      "source": "stairs-landings",
+      "template": "blockout/box",
+      "group": "stair-flight",
+      "tags": [
+        "build",
+        "stair-flight"
+      ],
+      "semantic": {
+        "area": "transition",
+        "provenance": "design",
+        "role": "step",
+        "name": "stair-flight 5",
+        "parent": "stairs-landings-00-00-01",
+        "member_key": "/@stair-flight/0/4",
+        "identity_scope": "persistent"
+      },
+      "collision": true,
+      "transform": {
+        "position_cm": [
+          -20.0,
+          450.0,
+          50.0
+        ],
+        "size_cm": [
+          40.0,
+          300.0,
+          100.0
+        ],
+        "rotation_deg": [
+          0,
+          0.0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "stairs-landings-01-01-07",
+      "source": "stairs-landings",
+      "template": "blockout/box",
+      "group": "stair-flight",
+      "tags": [
+        "build",
+        "stair-flight"
+      ],
+      "semantic": {
+        "area": "transition",
+        "provenance": "design",
+        "role": "step",
+        "name": "stair-flight 6",
+        "parent": "stairs-landings-00-00-01",
+        "member_key": "/@stair-flight/0/5",
+        "identity_scope": "persistent"
+      },
+      "collision": true,
+      "transform": {
+        "position_cm": [
+          20.0,
+          450.0,
+          60.0
+        ],
+        "size_cm": [
+          40.0,
+          300.0,
+          120.0
+        ],
+        "rotation_deg": [
+          0,
+          0.0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "stairs-landings-01-01-08",
+      "source": "stairs-landings",
+      "template": "blockout/box",
+      "group": "stair-flight",
+      "tags": [
+        "build",
+        "stair-flight"
+      ],
+      "semantic": {
+        "area": "transition",
+        "provenance": "design",
+        "role": "step",
+        "name": "stair-flight 7",
+        "parent": "stairs-landings-00-00-01",
+        "member_key": "/@stair-flight/0/6",
+        "identity_scope": "persistent"
+      },
+      "collision": true,
+      "transform": {
+        "position_cm": [
+          60.0,
+          450.0,
+          70.0
+        ],
+        "size_cm": [
+          40.0,
+          300.0,
+          140.0
+        ],
+        "rotation_deg": [
+          0,
+          0.0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "stairs-landings-01-01-09",
+      "source": "stairs-landings",
+      "template": "blockout/box",
+      "group": "stair-flight",
+      "tags": [
+        "build",
+        "stair-flight"
+      ],
+      "semantic": {
+        "area": "transition",
+        "provenance": "design",
+        "role": "step",
+        "name": "stair-flight 8",
+        "parent": "stairs-landings-00-00-01",
+        "member_key": "/@stair-flight/0/7",
+        "identity_scope": "persistent"
+      },
+      "collision": true,
+      "transform": {
+        "position_cm": [
+          100.0,
+          450.0,
+          80.0
+        ],
+        "size_cm": [
+          40.0,
+          300.0,
+          160.0
+        ],
+        "rotation_deg": [
+          0,
+          0.0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "stairs-landings-01-01-10",
+      "source": "stairs-landings",
+      "template": "blockout/box",
+      "group": "stair-flight",
+      "tags": [
+        "build",
+        "stair-flight"
+      ],
+      "semantic": {
+        "area": "transition",
+        "provenance": "design",
+        "role": "step",
+        "name": "stair-flight 9",
+        "parent": "stairs-landings-00-00-01",
+        "member_key": "/@stair-flight/0/8",
+        "identity_scope": "persistent"
+      },
+      "collision": true,
+      "transform": {
+        "position_cm": [
+          140.0,
+          450.0,
+          90.0
+        ],
+        "size_cm": [
+          40.0,
+          300.0,
+          180.0
+        ],
+        "rotation_deg": [
+          0,
+          0.0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "stairs-landings-01-01-11",
+      "source": "stairs-landings",
+      "template": "blockout/box",
+      "group": "stair-flight",
+      "tags": [
+        "build",
+        "stair-flight"
+      ],
+      "semantic": {
+        "area": "transition",
+        "provenance": "design",
+        "role": "step",
+        "name": "stair-flight 10",
+        "parent": "stairs-landings-00-00-01",
+        "member_key": "/@stair-flight/0/9",
+        "identity_scope": "persistent"
+      },
+      "collision": true,
+      "transform": {
+        "position_cm": [
+          180.0,
+          450.0,
+          100.0
+        ],
+        "size_cm": [
+          40.0,
+          300.0,
+          200.0
+        ],
+        "rotation_deg": [
+          0,
+          0.0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "stairs-landings-01-01-12",
+      "source": "stairs-landings",
+      "template": "blockout/box",
+      "group": "upper-platform",
+      "tags": [
+        "build",
+        "upper-platform"
+      ],
+      "semantic": {
+        "name": "upper-platform",
+        "role": "floor",
+        "area": "main",
+        "provenance": "design",
+        "member_key": "/@upper-platform/0",
+        "parent": "stairs-landings-root",
+        "identity_scope": "persistent"
+      },
+      "collision": true,
+      "transform": {
+        "position_cm": [
+          400.0,
+          450.0,
+          190.0
+        ],
+        "size_cm": [
+          400.0,
+          300.0,
+          20.0
+        ],
+        "rotation_deg": [
+          0,
+          0.0,
+          0
+        ]
+      }
+    }
+  ],
+  "semantic_nodes": {
+    "stairs-landings-root": {
+      "id": "stairs-landings-root",
+      "name": "stairs-landings",
+      "role": "structure",
+      "source": "stairs-landings",
+      "provenance": "design",
+      "identity_scope": "persistent"
+    },
+    "stairs-landings-00-00-01": {
+      "role": "stairs",
+      "area": "transition",
+      "relations": [
+        {
+          "kind": "connects_to",
+          "target": "stairs-landings-01-01-00"
+        },
+        {
+          "kind": "connects_to",
+          "target": "stairs-landings-01-01-12"
+        }
+      ],
+      "provenance": "design",
+      "name": "stair-flight",
+      "id": "stairs-landings-00-00-01",
+      "parent": "stairs-landings-root",
+      "source": "stairs-landings",
+      "member_key": "/@stair-flight/0",
+      "identity_scope": "persistent",
+      "local_frame": {
+        "yaw_deg": 0.0,
+        "position_cm": [
+          0.0,
+          450.0,
+          100.0
+        ]
+      }
+    }
+  },
+  "anchor": {
+    "at": [
+      0.0,
+      4.5,
+      0.0
+    ],
+    "yaw": 0.0
+  }
+}

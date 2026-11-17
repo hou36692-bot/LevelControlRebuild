@@ -1,0 +1,33 @@
+{
+  "id": "stairs-landings",
+  "title": "平台、楼梯与高差衔接",
+  "review_status": "pending_user_review",
+  "tags": [
+    "stairs",
+    "elevation",
+    "route"
+  ],
+  "principles": [
+    "上下平台和楼梯是独立空间节点，路径关系必须说明高差。",
+    "本例台阶高 0.2 m、踏面 0.4 m，为自定游戏尺度，仍需玩家参数验收。"
+  ],
+  "sources": [
+    {
+      "title": "U.S. Access Board: Chapter 5, General Site and Building Elements",
+      "url": "https://www.access-board.gov/ada/chapter/ch05/",
+      "use": "仅引用楼梯与高差衔接主题；以实际玩家移动参数验收。未复制原文或图纸。"
+    },
+    {
+      "title": "U.S. Access Board: Chapter 4, Accessible Routes",
+      "url": "https://www.access-board.gov/ada/chapter/ch04/",
+      "use": "仅引用通行、门洞与路线连续性原则；未复制图纸或全文。游戏尺度自行设定，不构成规范符合性证明。"
+    }
+  ],
+  "query": {
+    "role": "step"
+  },
+  "geometry_license": "CC0-1.0",
+  "documentation": "Original LevelControl case notes; source texts are not redistributed.",
+  "runtime_validation": "not_run",
+  "compiled_entity_count": 12
+}

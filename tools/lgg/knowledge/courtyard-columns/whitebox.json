@@ -1,0 +1,2015 @@
+{
+  "entities": [
+    {
+      "id": "courtyard-columns-01-01-00",
+      "source": "courtyard-columns",
+      "template": "blockout/box",
+      "group": "courtyard-floor",
+      "tags": [
+        "build",
+        "courtyard-floor"
+      ],
+      "semantic": {
+        "name": "courtyard-floor",
+        "role": "floor",
+        "area": "main",
+        "provenance": "design",
+        "member_key": "/@courtyard-floor/0",
+        "parent": "courtyard-columns-root",
+        "identity_scope": "persistent"
+      },
+      "collision": true,
+      "transform": {
+        "position_cm": [
+          0.0,
+          1100.0,
+          -10.0
+        ],
+        "size_cm": [
+          2000.0,
+          1600.0,
+          20.0
+        ],
+        "rotation_deg": [
+          0,
+          0.0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "courtyard-columns-01-01-03",
+      "source": "courtyard-columns",
+      "template": "blockout/box",
+      "group": "outer-columns",
+      "tags": [
+        "build",
+        "outer-columns"
+      ],
+      "semantic": {
+        "area": "courtyard",
+        "pattern": "outer-front",
+        "ring": "outer",
+        "side": "front",
+        "role": "column-base",
+        "provenance": "design",
+        "name": "base",
+        "member_key": "/@outer-columns/column-a/column/0/base/0",
+        "parent": "courtyard-columns-00-00-02",
+        "identity_scope": "persistent"
+      },
+      "collision": true,
+      "transform": {
+        "position_cm": [
+          -750.0,
+          500.0,
+          15.0
+        ],
+        "size_cm": [
+          80.0,
+          80.0,
+          30.0
+        ],
+        "rotation_deg": [
+          0,
+          0.0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "courtyard-columns-01-01-04",
+      "source": "courtyard-columns",
+      "template": "blockout/column",
+      "group": "outer-columns",
+      "tags": [
+        "build",
+        "outer-columns"
+      ],
+      "semantic": {
+        "area": "courtyard",
+        "pattern": "outer-front",
+        "ring": "outer",
+        "side": "front",
+        "role": "column-shaft",
+        "provenance": "design",
+        "name": "shaft",
+        "member_key": "/@outer-columns/column-a/column/0/shaft/0",
+        "parent": "courtyard-columns-00-00-02",
+        "identity_scope": "persistent"
+      },
+      "collision": true,
+      "transform": {
+        "position_cm": [
+          -750.0,
+          500.0,
+          200.0
+        ],
+        "size_cm": [
+          50.0,
+          50.0,
+          340.0
+        ],
+        "rotation_deg": [
+          0,
+          0.0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "courtyard-columns-01-01-05",
+      "source": "courtyard-columns",
+      "template": "blockout/box",
+      "group": "outer-columns",
+      "tags": [
+        "build",
+        "outer-columns"
+      ],
+      "semantic": {
+        "area": "courtyard",
+        "pattern": "outer-front",
+        "ring": "outer",
+        "side": "front",
+        "role": "column-capital",
+        "provenance": "design",
+        "name": "capital",
+        "member_key": "/@outer-columns/column-a/column/0/capital/0",
+        "parent": "courtyard-columns-00-00-02",
+        "identity_scope": "persistent"
+      },
+      "collision": true,
+      "transform": {
+        "position_cm": [
+          -750.0,
+          500.0,
+          385.0
+        ],
+        "size_cm": [
+          80.0,
+          80.0,
+          30.0
+        ],
+        "rotation_deg": [
+          0,
+          0.0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "courtyard-columns-01-01-08",
+      "source": "courtyard-columns",
+      "template": "blockout/box",
+      "group": "outer-columns",
+      "tags": [
+        "build",
+        "outer-columns"
+      ],
+      "semantic": {
+        "area": "courtyard",
+        "pattern": "outer-front",
+        "ring": "outer",
+        "side": "front",
+        "role": "column-base",
+        "provenance": "design",
+        "name": "base",
+        "member_key": "/@outer-columns/column-b/column/0/base/0",
+        "parent": "courtyard-columns-00-00-07",
+        "identity_scope": "persistent"
+      },
+      "collision": true,
+      "transform": {
+        "position_cm": [
+          -450.0,
+          500.0,
+          15.0
+        ],
+        "size_cm": [
+          80.0,
+          80.0,
+          30.0
+        ],
+        "rotation_deg": [
+          0,
+          0.0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "courtyard-columns-01-01-09",
+      "source": "courtyard-columns",
+      "template": "blockout/column",
+      "group": "outer-columns",
+      "tags": [
+        "build",
+        "outer-columns"
+      ],
+      "semantic": {
+        "area": "courtyard",
+        "pattern": "outer-front",
+        "ring": "outer",
+        "side": "front",
+        "role": "column-shaft",
+        "provenance": "design",
+        "name": "shaft",
+        "member_key": "/@outer-columns/column-b/column/0/shaft/0",
+        "parent": "courtyard-columns-00-00-07",
+        "identity_scope": "persistent"
+      },
+      "collision": true,
+      "transform": {
+        "position_cm": [
+          -450.0,
+          500.0,
+          200.0
+        ],
+        "size_cm": [
+          50.0,
+          50.0,
+          340.0
+        ],
+        "rotation_deg": [
+          0,
+          0.0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "courtyard-columns-01-01-10",
+      "source": "courtyard-columns",
+      "template": "blockout/box",
+      "group": "outer-columns",
+      "tags": [
+        "build",
+        "outer-columns"
+      ],
+      "semantic": {
+        "area": "courtyard",
+        "pattern": "outer-front",
+        "ring": "outer",
+        "side": "front",
+        "role": "column-capital",
+        "provenance": "design",
+        "name": "capital",
+        "member_key": "/@outer-columns/column-b/column/0/capital/0",
+        "parent": "courtyard-columns-00-00-07",
+        "identity_scope": "persistent"
+      },
+      "collision": true,
+      "transform": {
+        "position_cm": [
+          -450.0,
+          500.0,
+          385.0
+        ],
+        "size_cm": [
+          80.0,
+          80.0,
+          30.0
+        ],
+        "rotation_deg": [
+          0,
+          0.0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "courtyard-columns-01-01-13",
+      "source": "courtyard-columns",
+      "template": "blockout/box",
+      "group": "outer-columns",
+      "tags": [
+        "build",
+        "outer-columns"
+      ],
+      "semantic": {
+        "area": "courtyard",
+        "pattern": "outer-front",
+        "ring": "outer",
+        "side": "front",
+        "role": "column-base",
+        "provenance": "design",
+        "name": "base",
+        "member_key": "/@outer-columns/column-c/column/0/base/0",
+        "parent": "courtyard-columns-00-00-12",
+        "identity_scope": "persistent"
+      },
+      "collision": true,
+      "transform": {
+        "position_cm": [
+          -150.0,
+          500.0,
+          15.0
+        ],
+        "size_cm": [
+          80.0,
+          80.0,
+          30.0
+        ],
+        "rotation_deg": [
+          0,
+          0.0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "courtyard-columns-01-01-14",
+      "source": "courtyard-columns",
+      "template": "blockout/column",
+      "group": "outer-columns",
+      "tags": [
+        "build",
+        "outer-columns"
+      ],
+      "semantic": {
+        "area": "courtyard",
+        "pattern": "outer-front",
+        "ring": "outer",
+        "side": "front",
+        "role": "column-shaft",
+        "provenance": "design",
+        "name": "shaft",
+        "member_key": "/@outer-columns/column-c/column/0/shaft/0",
+        "parent": "courtyard-columns-00-00-12",
+        "identity_scope": "persistent"
+      },
+      "collision": true,
+      "transform": {
+        "position_cm": [
+          -150.0,
+          500.0,
+          200.0
+        ],
+        "size_cm": [
+          50.0,
+          50.0,
+          340.0
+        ],
+        "rotation_deg": [
+          0,
+          0.0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "courtyard-columns-01-01-15",
+      "source": "courtyard-columns",
+      "template": "blockout/box",
+      "group": "outer-columns",
+      "tags": [
+        "build",
+        "outer-columns"
+      ],
+      "semantic": {
+        "area": "courtyard",
+        "pattern": "outer-front",
+        "ring": "outer",
+        "side": "front",
+        "role": "column-capital",
+        "provenance": "design",
+        "name": "capital",
+        "member_key": "/@outer-columns/column-c/column/0/capital/0",
+        "parent": "courtyard-columns-00-00-12",
+        "identity_scope": "persistent"
+      },
+      "collision": true,
+      "transform": {
+        "position_cm": [
+          -150.0,
+          500.0,
+          385.0
+        ],
+        "size_cm": [
+          80.0,
+          80.0,
+          30.0
+        ],
+        "rotation_deg": [
+          0,
+          0.0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "courtyard-columns-01-01-18",
+      "source": "courtyard-columns",
+      "template": "blockout/box",
+      "group": "outer-columns",
+      "tags": [
+        "build",
+        "outer-columns"
+      ],
+      "semantic": {
+        "area": "courtyard",
+        "pattern": "outer-front",
+        "ring": "outer",
+        "side": "front",
+        "role": "column-base",
+        "provenance": "design",
+        "name": "base",
+        "member_key": "/@outer-columns/column-d/column/0/base/0",
+        "parent": "courtyard-columns-00-00-17",
+        "identity_scope": "persistent"
+      },
+      "collision": true,
+      "transform": {
+        "position_cm": [
+          150.0,
+          500.0,
+          15.0
+        ],
+        "size_cm": [
+          80.0,
+          80.0,
+          30.0
+        ],
+        "rotation_deg": [
+          0,
+          0.0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "courtyard-columns-01-01-19",
+      "source": "courtyard-columns",
+      "template": "blockout/column",
+      "group": "outer-columns",
+      "tags": [
+        "build",
+        "outer-columns"
+      ],
+      "semantic": {
+        "area": "courtyard",
+        "pattern": "outer-front",
+        "ring": "outer",
+        "side": "front",
+        "role": "column-shaft",
+        "provenance": "design",
+        "name": "shaft",
+        "member_key": "/@outer-columns/column-d/column/0/shaft/0",
+        "parent": "courtyard-columns-00-00-17",
+        "identity_scope": "persistent"
+      },
+      "collision": true,
+      "transform": {
+        "position_cm": [
+          150.0,
+          500.0,
+          200.0
+        ],
+        "size_cm": [
+          50.0,
+          50.0,
+          340.0
+        ],
+        "rotation_deg": [
+          0,
+          0.0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "courtyard-columns-01-01-20",
+      "source": "courtyard-columns",
+      "template": "blockout/box",
+      "group": "outer-columns",
+      "tags": [
+        "build",
+        "outer-columns"
+      ],
+      "semantic": {
+        "area": "courtyard",
+        "pattern": "outer-front",
+        "ring": "outer",
+        "side": "front",
+        "role": "column-capital",
+        "provenance": "design",
+        "name": "capital",
+        "member_key": "/@outer-columns/column-d/column/0/capital/0",
+        "parent": "courtyard-columns-00-00-17",
+        "identity_scope": "persistent"
+      },
+      "collision": true,
+      "transform": {
+        "position_cm": [
+          150.0,
+          500.0,
+          385.0
+        ],
+        "size_cm": [
+          80.0,
+          80.0,
+          30.0
+        ],
+        "rotation_deg": [
+          0,
+          0.0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "courtyard-columns-01-01-23",
+      "source": "courtyard-columns",
+      "template": "blockout/box",
+      "group": "outer-columns",
+      "tags": [
+        "build",
+        "outer-columns"
+      ],
+      "semantic": {
+        "area": "courtyard",
+        "pattern": "outer-front",
+        "ring": "outer",
+        "side": "front",
+        "role": "column-base",
+        "provenance": "design",
+        "name": "base",
+        "member_key": "/@outer-columns/column-e/column/0/base/0",
+        "parent": "courtyard-columns-00-00-22",
+        "identity_scope": "persistent"
+      },
+      "collision": true,
+      "transform": {
+        "position_cm": [
+          450.0,
+          500.0,
+          15.0
+        ],
+        "size_cm": [
+          80.0,
+          80.0,
+          30.0
+        ],
+        "rotation_deg": [
+          0,
+          0.0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "courtyard-columns-01-01-24",
+      "source": "courtyard-columns",
+      "template": "blockout/column",
+      "group": "outer-columns",
+      "tags": [
+        "build",
+        "outer-columns"
+      ],
+      "semantic": {
+        "area": "courtyard",
+        "pattern": "outer-front",
+        "ring": "outer",
+        "side": "front",
+        "role": "column-shaft",
+        "provenance": "design",
+        "name": "shaft",
+        "member_key": "/@outer-columns/column-e/column/0/shaft/0",
+        "parent": "courtyard-columns-00-00-22",
+        "identity_scope": "persistent"
+      },
+      "collision": true,
+      "transform": {
+        "position_cm": [
+          450.0,
+          500.0,
+          200.0
+        ],
+        "size_cm": [
+          50.0,
+          50.0,
+          340.0
+        ],
+        "rotation_deg": [
+          0,
+          0.0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "courtyard-columns-01-01-25",
+      "source": "courtyard-columns",
+      "template": "blockout/box",
+      "group": "outer-columns",
+      "tags": [
+        "build",
+        "outer-columns"
+      ],
+      "semantic": {
+        "area": "courtyard",
+        "pattern": "outer-front",
+        "ring": "outer",
+        "side": "front",
+        "role": "column-capital",
+        "provenance": "design",
+        "name": "capital",
+        "member_key": "/@outer-columns/column-e/column/0/capital/0",
+        "parent": "courtyard-columns-00-00-22",
+        "identity_scope": "persistent"
+      },
+      "collision": true,
+      "transform": {
+        "position_cm": [
+          450.0,
+          500.0,
+          385.0
+        ],
+        "size_cm": [
+          80.0,
+          80.0,
+          30.0
+        ],
+        "rotation_deg": [
+          0,
+          0.0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "courtyard-columns-01-01-28",
+      "source": "courtyard-columns",
+      "template": "blockout/box",
+      "group": "outer-columns",
+      "tags": [
+        "build",
+        "outer-columns"
+      ],
+      "semantic": {
+        "area": "courtyard",
+        "pattern": "outer-front",
+        "ring": "outer",
+        "side": "front",
+        "role": "column-base",
+        "provenance": "design",
+        "name": "base",
+        "member_key": "/@outer-columns/column-f/column/0/base/0",
+        "parent": "courtyard-columns-00-00-27",
+        "identity_scope": "persistent"
+      },
+      "collision": true,
+      "transform": {
+        "position_cm": [
+          750.0,
+          500.0,
+          15.0
+        ],
+        "size_cm": [
+          80.0,
+          80.0,
+          30.0
+        ],
+        "rotation_deg": [
+          0,
+          0.0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "courtyard-columns-01-01-29",
+      "source": "courtyard-columns",
+      "template": "blockout/column",
+      "group": "outer-columns",
+      "tags": [
+        "build",
+        "outer-columns"
+      ],
+      "semantic": {
+        "area": "courtyard",
+        "pattern": "outer-front",
+        "ring": "outer",
+        "side": "front",
+        "role": "column-shaft",
+        "provenance": "design",
+        "name": "shaft",
+        "member_key": "/@outer-columns/column-f/column/0/shaft/0",
+        "parent": "courtyard-columns-00-00-27",
+        "identity_scope": "persistent"
+      },
+      "collision": true,
+      "transform": {
+        "position_cm": [
+          750.0,
+          500.0,
+          200.0
+        ],
+        "size_cm": [
+          50.0,
+          50.0,
+          340.0
+        ],
+        "rotation_deg": [
+          0,
+          0.0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "courtyard-columns-01-01-30",
+      "source": "courtyard-columns",
+      "template": "blockout/box",
+      "group": "outer-columns",
+      "tags": [
+        "build",
+        "outer-columns"
+      ],
+      "semantic": {
+        "area": "courtyard",
+        "pattern": "outer-front",
+        "ring": "outer",
+        "side": "front",
+        "role": "column-capital",
+        "provenance": "design",
+        "name": "capital",
+        "member_key": "/@outer-columns/column-f/column/0/capital/0",
+        "parent": "courtyard-columns-00-00-27",
+        "identity_scope": "persistent"
+      },
+      "collision": true,
+      "transform": {
+        "position_cm": [
+          750.0,
+          500.0,
+          385.0
+        ],
+        "size_cm": [
+          80.0,
+          80.0,
+          30.0
+        ],
+        "rotation_deg": [
+          0,
+          0.0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "courtyard-columns-01-01-33",
+      "source": "courtyard-columns",
+      "template": "blockout/box",
+      "group": "inner-columns",
+      "tags": [
+        "build",
+        "inner-columns"
+      ],
+      "semantic": {
+        "area": "courtyard",
+        "pattern": "inner-front",
+        "ring": "inner",
+        "side": "front",
+        "role": "column-base",
+        "provenance": "design",
+        "name": "base",
+        "member_key": "/@inner-columns/column-a/column/0/base/0",
+        "parent": "courtyard-columns-00-00-32",
+        "identity_scope": "persistent"
+      },
+      "collision": true,
+      "transform": {
+        "position_cm": [
+          -750.0,
+          800.0,
+          15.0
+        ],
+        "size_cm": [
+          80.0,
+          80.0,
+          30.0
+        ],
+        "rotation_deg": [
+          0,
+          0.0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "courtyard-columns-01-01-34",
+      "source": "courtyard-columns",
+      "template": "blockout/column",
+      "group": "inner-columns",
+      "tags": [
+        "build",
+        "inner-columns"
+      ],
+      "semantic": {
+        "area": "courtyard",
+        "pattern": "inner-front",
+        "ring": "inner",
+        "side": "front",
+        "role": "column-shaft",
+        "provenance": "design",
+        "name": "shaft",
+        "member_key": "/@inner-columns/column-a/column/0/shaft/0",
+        "parent": "courtyard-columns-00-00-32",
+        "identity_scope": "persistent"
+      },
+      "collision": true,
+      "transform": {
+        "position_cm": [
+          -750.0,
+          800.0,
+          200.0
+        ],
+        "size_cm": [
+          50.0,
+          50.0,
+          340.0
+        ],
+        "rotation_deg": [
+          0,
+          0.0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "courtyard-columns-01-01-35",
+      "source": "courtyard-columns",
+      "template": "blockout/box",
+      "group": "inner-columns",
+      "tags": [
+        "build",
+        "inner-columns"
+      ],
+      "semantic": {
+        "area": "courtyard",
+        "pattern": "inner-front",
+        "ring": "inner",
+        "side": "front",
+        "role": "column-capital",
+        "provenance": "design",
+        "name": "capital",
+        "member_key": "/@inner-columns/column-a/column/0/capital/0",
+        "parent": "courtyard-columns-00-00-32",
+        "identity_scope": "persistent"
+      },
+      "collision": true,
+      "transform": {
+        "position_cm": [
+          -750.0,
+          800.0,
+          385.0
+        ],
+        "size_cm": [
+          80.0,
+          80.0,
+          30.0
+        ],
+        "rotation_deg": [
+          0,
+          0.0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "courtyard-columns-01-01-38",
+      "source": "courtyard-columns",
+      "template": "blockout/box",
+      "group": "inner-columns",
+      "tags": [
+        "build",
+        "inner-columns"
+      ],
+      "semantic": {
+        "area": "courtyard",
+        "pattern": "inner-front",
+        "ring": "inner",
+        "side": "front",
+        "role": "column-base",
+        "provenance": "design",
+        "name": "base",
+        "member_key": "/@inner-columns/column-b/column/0/base/0",
+        "parent": "courtyard-columns-00-00-37",
+        "identity_scope": "persistent"
+      },
+      "collision": true,
+      "transform": {
+        "position_cm": [
+          -450.0,
+          800.0,
+          15.0
+        ],
+        "size_cm": [
+          80.0,
+          80.0,
+          30.0
+        ],
+        "rotation_deg": [
+          0,
+          0.0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "courtyard-columns-01-01-39",
+      "source": "courtyard-columns",
+      "template": "blockout/column",
+      "group": "inner-columns",
+      "tags": [
+        "build",
+        "inner-columns"
+      ],
+      "semantic": {
+        "area": "courtyard",
+        "pattern": "inner-front",
+        "ring": "inner",
+        "side": "front",
+        "role": "column-shaft",
+        "provenance": "design",
+        "name": "shaft",
+        "member_key": "/@inner-columns/column-b/column/0/shaft/0",
+        "parent": "courtyard-columns-00-00-37",
+        "identity_scope": "persistent"
+      },
+      "collision": true,
+      "transform": {
+        "position_cm": [
+          -450.0,
+          800.0,
+          200.0
+        ],
+        "size_cm": [
+          50.0,
+          50.0,
+          340.0
+        ],
+        "rotation_deg": [
+          0,
+          0.0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "courtyard-columns-01-01-40",
+      "source": "courtyard-columns",
+      "template": "blockout/box",
+      "group": "inner-columns",
+      "tags": [
+        "build",
+        "inner-columns"
+      ],
+      "semantic": {
+        "area": "courtyard",
+        "pattern": "inner-front",
+        "ring": "inner",
+        "side": "front",
+        "role": "column-capital",
+        "provenance": "design",
+        "name": "capital",
+        "member_key": "/@inner-columns/column-b/column/0/capital/0",
+        "parent": "courtyard-columns-00-00-37",
+        "identity_scope": "persistent"
+      },
+      "collision": true,
+      "transform": {
+        "position_cm": [
+          -450.0,
+          800.0,
+          385.0
+        ],
+        "size_cm": [
+          80.0,
+          80.0,
+          30.0
+        ],
+        "rotation_deg": [
+          0,
+          0.0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "courtyard-columns-01-01-43",
+      "source": "courtyard-columns",
+      "template": "blockout/box",
+      "group": "inner-columns",
+      "tags": [
+        "build",
+        "inner-columns"
+      ],
+      "semantic": {
+        "area": "courtyard",
+        "pattern": "inner-front",
+        "ring": "inner",
+        "side": "front",
+        "role": "column-base",
+        "provenance": "design",
+        "name": "base",
+        "member_key": "/@inner-columns/column-c/column/0/base/0",
+        "parent": "courtyard-columns-00-00-42",
+        "identity_scope": "persistent"
+      },
+      "collision": true,
+      "transform": {
+        "position_cm": [
+          -150.0,
+          800.0,
+          15.0
+        ],
+        "size_cm": [
+          80.0,
+          80.0,
+          30.0
+        ],
+        "rotation_deg": [
+          0,
+          0.0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "courtyard-columns-01-01-44",
+      "source": "courtyard-columns",
+      "template": "blockout/column",
+      "group": "inner-columns",
+      "tags": [
+        "build",
+        "inner-columns"
+      ],
+      "semantic": {
+        "area": "courtyard",
+        "pattern": "inner-front",
+        "ring": "inner",
+        "side": "front",
+        "role": "column-shaft",
+        "provenance": "design",
+        "name": "shaft",
+        "member_key": "/@inner-columns/column-c/column/0/shaft/0",
+        "parent": "courtyard-columns-00-00-42",
+        "identity_scope": "persistent"
+      },
+      "collision": true,
+      "transform": {
+        "position_cm": [
+          -150.0,
+          800.0,
+          200.0
+        ],
+        "size_cm": [
+          50.0,
+          50.0,
+          340.0
+        ],
+        "rotation_deg": [
+          0,
+          0.0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "courtyard-columns-01-01-45",
+      "source": "courtyard-columns",
+      "template": "blockout/box",
+      "group": "inner-columns",
+      "tags": [
+        "build",
+        "inner-columns"
+      ],
+      "semantic": {
+        "area": "courtyard",
+        "pattern": "inner-front",
+        "ring": "inner",
+        "side": "front",
+        "role": "column-capital",
+        "provenance": "design",
+        "name": "capital",
+        "member_key": "/@inner-columns/column-c/column/0/capital/0",
+        "parent": "courtyard-columns-00-00-42",
+        "identity_scope": "persistent"
+      },
+      "collision": true,
+      "transform": {
+        "position_cm": [
+          -150.0,
+          800.0,
+          385.0
+        ],
+        "size_cm": [
+          80.0,
+          80.0,
+          30.0
+        ],
+        "rotation_deg": [
+          0,
+          0.0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "courtyard-columns-01-01-48",
+      "source": "courtyard-columns",
+      "template": "blockout/box",
+      "group": "inner-columns",
+      "tags": [
+        "build",
+        "inner-columns"
+      ],
+      "semantic": {
+        "area": "courtyard",
+        "pattern": "inner-front",
+        "ring": "inner",
+        "side": "front",
+        "role": "column-base",
+        "provenance": "design",
+        "name": "base",
+        "member_key": "/@inner-columns/column-d/column/0/base/0",
+        "parent": "courtyard-columns-00-00-47",
+        "identity_scope": "persistent"
+      },
+      "collision": true,
+      "transform": {
+        "position_cm": [
+          150.0,
+          800.0,
+          15.0
+        ],
+        "size_cm": [
+          80.0,
+          80.0,
+          30.0
+        ],
+        "rotation_deg": [
+          0,
+          0.0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "courtyard-columns-01-01-49",
+      "source": "courtyard-columns",
+      "template": "blockout/column",
+      "group": "inner-columns",
+      "tags": [
+        "build",
+        "inner-columns"
+      ],
+      "semantic": {
+        "area": "courtyard",
+        "pattern": "inner-front",
+        "ring": "inner",
+        "side": "front",
+        "role": "column-shaft",
+        "provenance": "design",
+        "name": "shaft",
+        "member_key": "/@inner-columns/column-d/column/0/shaft/0",
+        "parent": "courtyard-columns-00-00-47",
+        "identity_scope": "persistent"
+      },
+      "collision": true,
+      "transform": {
+        "position_cm": [
+          150.0,
+          800.0,
+          200.0
+        ],
+        "size_cm": [
+          50.0,
+          50.0,
+          340.0
+        ],
+        "rotation_deg": [
+          0,
+          0.0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "courtyard-columns-01-01-50",
+      "source": "courtyard-columns",
+      "template": "blockout/box",
+      "group": "inner-columns",
+      "tags": [
+        "build",
+        "inner-columns"
+      ],
+      "semantic": {
+        "area": "courtyard",
+        "pattern": "inner-front",
+        "ring": "inner",
+        "side": "front",
+        "role": "column-capital",
+        "provenance": "design",
+        "name": "capital",
+        "member_key": "/@inner-columns/column-d/column/0/capital/0",
+        "parent": "courtyard-columns-00-00-47",
+        "identity_scope": "persistent"
+      },
+      "collision": true,
+      "transform": {
+        "position_cm": [
+          150.0,
+          800.0,
+          385.0
+        ],
+        "size_cm": [
+          80.0,
+          80.0,
+          30.0
+        ],
+        "rotation_deg": [
+          0,
+          0.0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "courtyard-columns-01-01-53",
+      "source": "courtyard-columns",
+      "template": "blockout/box",
+      "group": "inner-columns",
+      "tags": [
+        "build",
+        "inner-columns"
+      ],
+      "semantic": {
+        "area": "courtyard",
+        "pattern": "inner-front",
+        "ring": "inner",
+        "side": "front",
+        "role": "column-base",
+        "provenance": "design",
+        "name": "base",
+        "member_key": "/@inner-columns/column-e/column/0/base/0",
+        "parent": "courtyard-columns-00-00-52",
+        "identity_scope": "persistent"
+      },
+      "collision": true,
+      "transform": {
+        "position_cm": [
+          450.0,
+          800.0,
+          15.0
+        ],
+        "size_cm": [
+          80.0,
+          80.0,
+          30.0
+        ],
+        "rotation_deg": [
+          0,
+          0.0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "courtyard-columns-01-01-54",
+      "source": "courtyard-columns",
+      "template": "blockout/column",
+      "group": "inner-columns",
+      "tags": [
+        "build",
+        "inner-columns"
+      ],
+      "semantic": {
+        "area": "courtyard",
+        "pattern": "inner-front",
+        "ring": "inner",
+        "side": "front",
+        "role": "column-shaft",
+        "provenance": "design",
+        "name": "shaft",
+        "member_key": "/@inner-columns/column-e/column/0/shaft/0",
+        "parent": "courtyard-columns-00-00-52",
+        "identity_scope": "persistent"
+      },
+      "collision": true,
+      "transform": {
+        "position_cm": [
+          450.0,
+          800.0,
+          200.0
+        ],
+        "size_cm": [
+          50.0,
+          50.0,
+          340.0
+        ],
+        "rotation_deg": [
+          0,
+          0.0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "courtyard-columns-01-01-55",
+      "source": "courtyard-columns",
+      "template": "blockout/box",
+      "group": "inner-columns",
+      "tags": [
+        "build",
+        "inner-columns"
+      ],
+      "semantic": {
+        "area": "courtyard",
+        "pattern": "inner-front",
+        "ring": "inner",
+        "side": "front",
+        "role": "column-capital",
+        "provenance": "design",
+        "name": "capital",
+        "member_key": "/@inner-columns/column-e/column/0/capital/0",
+        "parent": "courtyard-columns-00-00-52",
+        "identity_scope": "persistent"
+      },
+      "collision": true,
+      "transform": {
+        "position_cm": [
+          450.0,
+          800.0,
+          385.0
+        ],
+        "size_cm": [
+          80.0,
+          80.0,
+          30.0
+        ],
+        "rotation_deg": [
+          0,
+          0.0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "courtyard-columns-01-01-58",
+      "source": "courtyard-columns",
+      "template": "blockout/box",
+      "group": "inner-columns",
+      "tags": [
+        "build",
+        "inner-columns"
+      ],
+      "semantic": {
+        "area": "courtyard",
+        "pattern": "inner-front",
+        "ring": "inner",
+        "side": "front",
+        "role": "column-base",
+        "provenance": "design",
+        "name": "base",
+        "member_key": "/@inner-columns/column-f/column/0/base/0",
+        "parent": "courtyard-columns-00-00-57",
+        "identity_scope": "persistent"
+      },
+      "collision": true,
+      "transform": {
+        "position_cm": [
+          750.0,
+          800.0,
+          15.0
+        ],
+        "size_cm": [
+          80.0,
+          80.0,
+          30.0
+        ],
+        "rotation_deg": [
+          0,
+          0.0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "courtyard-columns-01-01-59",
+      "source": "courtyard-columns",
+      "template": "blockout/column",
+      "group": "inner-columns",
+      "tags": [
+        "build",
+        "inner-columns"
+      ],
+      "semantic": {
+        "area": "courtyard",
+        "pattern": "inner-front",
+        "ring": "inner",
+        "side": "front",
+        "role": "column-shaft",
+        "provenance": "design",
+        "name": "shaft",
+        "member_key": "/@inner-columns/column-f/column/0/shaft/0",
+        "parent": "courtyard-columns-00-00-57",
+        "identity_scope": "persistent"
+      },
+      "collision": true,
+      "transform": {
+        "position_cm": [
+          750.0,
+          800.0,
+          200.0
+        ],
+        "size_cm": [
+          50.0,
+          50.0,
+          340.0
+        ],
+        "rotation_deg": [
+          0,
+          0.0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "courtyard-columns-01-01-60",
+      "source": "courtyard-columns",
+      "template": "blockout/box",
+      "group": "inner-columns",
+      "tags": [
+        "build",
+        "inner-columns"
+      ],
+      "semantic": {
+        "area": "courtyard",
+        "pattern": "inner-front",
+        "ring": "inner",
+        "side": "front",
+        "role": "column-capital",
+        "provenance": "design",
+        "name": "capital",
+        "member_key": "/@inner-columns/column-f/column/0/capital/0",
+        "parent": "courtyard-columns-00-00-57",
+        "identity_scope": "persistent"
+      },
+      "collision": true,
+      "transform": {
+        "position_cm": [
+          750.0,
+          800.0,
+          385.0
+        ],
+        "size_cm": [
+          80.0,
+          80.0,
+          30.0
+        ],
+        "rotation_deg": [
+          0,
+          0.0,
+          0
+        ]
+      }
+    }
+  ],
+  "semantic_nodes": {
+    "courtyard-columns-root": {
+      "id": "courtyard-columns-root",
+      "name": "courtyard-columns",
+      "role": "structure",
+      "source": "courtyard-columns",
+      "provenance": "design",
+      "identity_scope": "persistent"
+    },
+    "courtyard-columns-00-00-01": {
+      "name": "外圈廊柱",
+      "role": "column",
+      "area": "courtyard",
+      "pattern": "outer-front",
+      "ring": "outer",
+      "side": "front",
+      "provenance": "design",
+      "id": "courtyard-columns-00-00-01",
+      "parent": "courtyard-columns-root",
+      "source": "courtyard-columns",
+      "member_key": "/@outer-columns/column-a",
+      "identity_scope": "persistent",
+      "local_frame": {
+        "yaw_deg": 0.0,
+        "position_cm": [
+          -750.0,
+          500.0,
+          0.0
+        ]
+      }
+    },
+    "courtyard-columns-00-00-02": {
+      "area": "courtyard",
+      "pattern": "outer-front",
+      "ring": "outer",
+      "side": "front",
+      "provenance": "design",
+      "name": "outer-columns",
+      "id": "courtyard-columns-00-00-02",
+      "parent": "courtyard-columns-00-00-01",
+      "source": "courtyard-columns",
+      "member_key": "/@outer-columns/column-a/column/0",
+      "identity_scope": "persistent",
+      "local_frame": {
+        "yaw_deg": 0.0,
+        "position_cm": [
+          -750.0,
+          500.0,
+          0.0
+        ]
+      }
+    },
+    "courtyard-columns-00-00-06": {
+      "name": "外圈廊柱",
+      "role": "column",
+      "area": "courtyard",
+      "pattern": "outer-front",
+      "ring": "outer",
+      "side": "front",
+      "provenance": "design",
+      "id": "courtyard-columns-00-00-06",
+      "parent": "courtyard-columns-root",
+      "source": "courtyard-columns",
+      "member_key": "/@outer-columns/column-b",
+      "identity_scope": "persistent",
+      "local_frame": {
+        "yaw_deg": 0.0,
+        "position_cm": [
+          -450.0,
+          500.0,
+          0.0
+        ]
+      }
+    },
+    "courtyard-columns-00-00-07": {
+      "area": "courtyard",
+      "pattern": "outer-front",
+      "ring": "outer",
+      "side": "front",
+      "provenance": "design",
+      "name": "outer-columns",
+      "id": "courtyard-columns-00-00-07",
+      "parent": "courtyard-columns-00-00-06",
+      "source": "courtyard-columns",
+      "member_key": "/@outer-columns/column-b/column/0",
+      "identity_scope": "persistent",
+      "local_frame": {
+        "yaw_deg": 0.0,
+        "position_cm": [
+          -450.0,
+          500.0,
+          0.0
+        ]
+      }
+    },
+    "courtyard-columns-00-00-11": {
+      "name": "外圈廊柱",
+      "role": "column",
+      "area": "courtyard",
+      "pattern": "outer-front",
+      "ring": "outer",
+      "side": "front",
+      "provenance": "design",
+      "id": "courtyard-columns-00-00-11",
+      "parent": "courtyard-columns-root",
+      "source": "courtyard-columns",
+      "member_key": "/@outer-columns/column-c",
+      "identity_scope": "persistent",
+      "local_frame": {
+        "yaw_deg": 0.0,
+        "position_cm": [
+          -150.0,
+          500.0,
+          0.0
+        ]
+      }
+    },
+    "courtyard-columns-00-00-12": {
+      "area": "courtyard",
+      "pattern": "outer-front",
+      "ring": "outer",
+      "side": "front",
+      "provenance": "design",
+      "name": "outer-columns",
+      "id": "courtyard-columns-00-00-12",
+      "parent": "courtyard-columns-00-00-11",
+      "source": "courtyard-columns",
+      "member_key": "/@outer-columns/column-c/column/0",
+      "identity_scope": "persistent",
+      "local_frame": {
+        "yaw_deg": 0.0,
+        "position_cm": [
+          -150.0,
+          500.0,
+          0.0
+        ]
+      }
+    },
+    "courtyard-columns-00-00-16": {
+      "name": "外圈廊柱",
+      "role": "column",
+      "area": "courtyard",
+      "pattern": "outer-front",
+      "ring": "outer",
+      "side": "front",
+      "provenance": "design",
+      "id": "courtyard-columns-00-00-16",
+      "parent": "courtyard-columns-root",
+      "source": "courtyard-columns",
+      "member_key": "/@outer-columns/column-d",
+      "identity_scope": "persistent",
+      "local_frame": {
+        "yaw_deg": 0.0,
+        "position_cm": [
+          150.0,
+          500.0,
+          0.0
+        ]
+      }
+    },
+    "courtyard-columns-00-00-17": {
+      "area": "courtyard",
+      "pattern": "outer-front",
+      "ring": "outer",
+      "side": "front",
+      "provenance": "design",
+      "name": "outer-columns",
+      "id": "courtyard-columns-00-00-17",
+      "parent": "courtyard-columns-00-00-16",
+      "source": "courtyard-columns",
+      "member_key": "/@outer-columns/column-d/column/0",
+      "identity_scope": "persistent",
+      "local_frame": {
+        "yaw_deg": 0.0,
+        "position_cm": [
+          150.0,
+          500.0,
+          0.0
+        ]
+      }
+    },
+    "courtyard-columns-00-00-21": {
+      "name": "外圈廊柱",
+      "role": "column",
+      "area": "courtyard",
+      "pattern": "outer-front",
+      "ring": "outer",
+      "side": "front",
+      "provenance": "design",
+      "id": "courtyard-columns-00-00-21",
+      "parent": "courtyard-columns-root",
+      "source": "courtyard-columns",
+      "member_key": "/@outer-columns/column-e",
+      "identity_scope": "persistent",
+      "local_frame": {
+        "yaw_deg": 0.0,
+        "position_cm": [
+          450.0,
+          500.0,
+          0.0
+        ]
+      }
+    },
+    "courtyard-columns-00-00-22": {
+      "area": "courtyard",
+      "pattern": "outer-front",
+      "ring": "outer",
+      "side": "front",
+      "provenance": "design",
+      "name": "outer-columns",
+      "id": "courtyard-columns-00-00-22",
+      "parent": "courtyard-columns-00-00-21",
+      "source": "courtyard-columns",
+      "member_key": "/@outer-columns/column-e/column/0",
+      "identity_scope": "persistent",
+      "local_frame": {
+        "yaw_deg": 0.0,
+        "position_cm": [
+          450.0,
+          500.0,
+          0.0
+        ]
+      }
+    },
+    "courtyard-columns-00-00-26": {
+      "name": "外圈廊柱",
+      "role": "column",
+      "area": "courtyard",
+      "pattern": "outer-front",
+      "ring": "outer",
+      "side": "front",
+      "provenance": "design",
+      "id": "courtyard-columns-00-00-26",
+      "parent": "courtyard-columns-root",
+      "source": "courtyard-columns",
+      "member_key": "/@outer-columns/column-f",
+      "identity_scope": "persistent",
+      "local_frame": {
+        "yaw_deg": 0.0,
+        "position_cm": [
+          750.0,
+          500.0,
+          0.0
+        ]
+      }
+    },
+    "courtyard-columns-00-00-27": {
+      "area": "courtyard",
+      "pattern": "outer-front",
+      "ring": "outer",
+      "side": "front",
+      "provenance": "design",
+      "name": "outer-columns",
+      "id": "courtyard-columns-00-00-27",
+      "parent": "courtyard-columns-00-00-26",
+      "source": "courtyard-columns",
+      "member_key": "/@outer-columns/column-f/column/0",
+      "identity_scope": "persistent",
+      "local_frame": {
+        "yaw_deg": 0.0,
+        "position_cm": [
+          750.0,
+          500.0,
+          0.0
+        ]
+      }
+    },
+    "courtyard-columns-00-00-31": {
+      "name": "内圈廊柱",
+      "role": "column",
+      "area": "courtyard",
+      "pattern": "inner-front",
+      "ring": "inner",
+      "side": "front",
+      "provenance": "design",
+      "id": "courtyard-columns-00-00-31",
+      "parent": "courtyard-columns-root",
+      "source": "courtyard-columns",
+      "member_key": "/@inner-columns/column-a",
+      "identity_scope": "persistent",
+      "local_frame": {
+        "yaw_deg": 0.0,
+        "position_cm": [
+          -750.0,
+          800.0,
+          0.0
+        ]
+      }
+    },
+    "courtyard-columns-00-00-32": {
+      "area": "courtyard",
+      "pattern": "inner-front",
+      "ring": "inner",
+      "side": "front",
+      "provenance": "design",
+      "name": "inner-columns",
+      "id": "courtyard-columns-00-00-32",
+      "parent": "courtyard-columns-00-00-31",
+      "source": "courtyard-columns",
+      "member_key": "/@inner-columns/column-a/column/0",
+      "identity_scope": "persistent",
+      "local_frame": {
+        "yaw_deg": 0.0,
+        "position_cm": [
+          -750.0,
+          800.0,
+          0.0
+        ]
+      }
+    },
+    "courtyard-columns-00-00-36": {
+      "name": "内圈廊柱",
+      "role": "column",
+      "area": "courtyard",
+      "pattern": "inner-front",
+      "ring": "inner",
+      "side": "front",
+      "provenance": "design",
+      "id": "courtyard-columns-00-00-36",
+      "parent": "courtyard-columns-root",
+      "source": "courtyard-columns",
+      "member_key": "/@inner-columns/column-b",
+      "identity_scope": "persistent",
+      "local_frame": {
+        "yaw_deg": 0.0,
+        "position_cm": [
+          -450.0,
+          800.0,
+          0.0
+        ]
+      }
+    },
+    "courtyard-columns-00-00-37": {
+      "area": "courtyard",
+      "pattern": "inner-front",
+      "ring": "inner",
+      "side": "front",
+      "provenance": "design",
+      "name": "inner-columns",
+      "id": "courtyard-columns-00-00-37",
+      "parent": "courtyard-columns-00-00-36",
+      "source": "courtyard-columns",
+      "member_key": "/@inner-columns/column-b/column/0",
+      "identity_scope": "persistent",
+      "local_frame": {
+        "yaw_deg": 0.0,
+        "position_cm": [
+          -450.0,
+          800.0,
+          0.0
+        ]
+      }
+    },
+    "courtyard-columns-00-00-41": {
+      "name": "内圈廊柱",
+      "role": "column",
+      "area": "courtyard",
+      "pattern": "inner-front",
+      "ring": "inner",
+      "side": "front",
+      "provenance": "design",
+      "id": "courtyard-columns-00-00-41",
+      "parent": "courtyard-columns-root",
+      "source": "courtyard-columns",
+      "member_key": "/@inner-columns/column-c",
+      "identity_scope": "persistent",
+      "local_frame": {
+        "yaw_deg": 0.0,
+        "position_cm": [
+          -150.0,
+          800.0,
+          0.0
+        ]
+      }
+    },
+    "courtyard-columns-00-00-42": {
+      "area": "courtyard",
+      "pattern": "inner-front",
+      "ring": "inner",
+      "side": "front",
+      "provenance": "design",
+      "name": "inner-columns",
+      "id": "courtyard-columns-00-00-42",
+      "parent": "courtyard-columns-00-00-41",
+      "source": "courtyard-columns",
+      "member_key": "/@inner-columns/column-c/column/0",
+      "identity_scope": "persistent",
+      "local_frame": {
+        "yaw_deg": 0.0,
+        "position_cm": [
+          -150.0,
+          800.0,
+          0.0
+        ]
+      }
+    },
+    "courtyard-columns-00-00-46": {
+      "name": "内圈廊柱",
+      "role": "column",
+      "area": "courtyard",
+      "pattern": "inner-front",
+      "ring": "inner",
+      "side": "front",
+      "provenance": "design",
+      "id": "courtyard-columns-00-00-46",
+      "parent": "courtyard-columns-root",
+      "source": "courtyard-columns",
+      "member_key": "/@inner-columns/column-d",
+      "identity_scope": "persistent",
+      "local_frame": {
+        "yaw_deg": 0.0,
+        "position_cm": [
+          150.0,
+          800.0,
+          0.0
+        ]
+      }
+    },
+    "courtyard-columns-00-00-47": {
+      "area": "courtyard",
+      "pattern": "inner-front",
+      "ring": "inner",
+      "side": "front",
+      "provenance": "design",
+      "name": "inner-columns",
+      "id": "courtyard-columns-00-00-47",
+      "parent": "courtyard-columns-00-00-46",
+      "source": "courtyard-columns",
+      "member_key": "/@inner-columns/column-d/column/0",
+      "identity_scope": "persistent",
+      "local_frame": {
+        "yaw_deg": 0.0,
+        "position_cm": [
+          150.0,
+          800.0,
+          0.0
+        ]
+      }
+    },
+    "courtyard-columns-00-00-51": {
+      "name": "内圈廊柱",
+      "role": "column",
+      "area": "courtyard",
+      "pattern": "inner-front",
+      "ring": "inner",
+      "side": "front",
+      "provenance": "design",
+      "id": "courtyard-columns-00-00-51",
+      "parent": "courtyard-columns-root",
+      "source": "courtyard-columns",
+      "member_key": "/@inner-columns/column-e",
+      "identity_scope": "persistent",
+      "local_frame": {
+        "yaw_deg": 0.0,
+        "position_cm": [
+          450.0,
+          800.0,
+          0.0
+        ]
+      }
+    },
+    "courtyard-columns-00-00-52": {
+      "area": "courtyard",
+      "pattern": "inner-front",
+      "ring": "inner",
+      "side": "front",
+      "provenance": "design",
+      "name": "inner-columns",
+      "id": "courtyard-columns-00-00-52",
+      "parent": "courtyard-columns-00-00-51",
+      "source": "courtyard-columns",
+      "member_key": "/@inner-columns/column-e/column/0",
+      "identity_scope": "persistent",
+      "local_frame": {
+        "yaw_deg": 0.0,
+        "position_cm": [
+          450.0,
+          800.0,
+          0.0
+        ]
+      }
+    },
+    "courtyard-columns-00-00-56": {
+      "name": "内圈廊柱",
+      "role": "column",
+      "area": "courtyard",
+      "pattern": "inner-front",
+      "ring": "inner",
+      "side": "front",
+      "provenance": "design",
+      "id": "courtyard-columns-00-00-56",
+      "parent": "courtyard-columns-root",
+      "source": "courtyard-columns",
+      "member_key": "/@inner-columns/column-f",
+      "identity_scope": "persistent",
+      "local_frame": {
+        "yaw_deg": 0.0,
+        "position_cm": [
+          750.0,
+          800.0,
+          0.0
+        ]
+      }
+    },
+    "courtyard-columns-00-00-57": {
+      "area": "courtyard",
+      "pattern": "inner-front",
+      "ring": "inner",
+      "side": "front",
+      "provenance": "design",
+      "name": "inner-columns",
+      "id": "courtyard-columns-00-00-57",
+      "parent": "courtyard-columns-00-00-56",
+      "source": "courtyard-columns",
+      "member_key": "/@inner-columns/column-f/column/0",
+      "identity_scope": "persistent",
+      "local_frame": {
+        "yaw_deg": 0.0,
+        "position_cm": [
+          750.0,
+          800.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "anchor": {
+    "at": [
+      0.0,
+      11.0,
+      0.0
+    ],
+    "yaw": 0.0
+  }
+}

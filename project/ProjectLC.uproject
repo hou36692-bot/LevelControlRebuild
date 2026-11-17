@@ -1,0 +1,16 @@
+{
+  "FileVersion": 3,
+  "EngineAssociation": "5.8",
+  "Category": "Games",
+  "Description": "LevelControl runtime blockout sandbox",
+  "Modules": [{"Name": "ProjectLC", "Type": "Runtime", "LoadingPhase": "Default"}],
+  "Plugins": [
+    {"Name": "EnhancedInput", "Enabled": true},
+    {"Name": "SQLiteCore", "Enabled": true},
+    {"Name": "ToolsetRegistry", "Enabled": false},
+    {"Name": "ModelContextProtocol", "Enabled": false},
+    {"Name": "AllToolsets", "Enabled": false},
+    {"Name": "LevelControlRuntime", "Enabled": true}
+  ],
+  "AdditionalPluginDirectories": ["../ue/Plugins"]
+}

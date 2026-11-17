@@ -1,0 +1,29 @@
+{
+  "id": "u-courtyard",
+  "title": "U 形围合与开放入口",
+  "review_status": "pending_user_review",
+  "tags": [
+    "enclosure",
+    "courtyard",
+    "entrance",
+    "route"
+  ],
+  "principles": [
+    "三面围合，南侧保留明确入口，避免封死场地。",
+    "把入口、场地与围墙作为不同设计角色，修改围墙不重命名场地。"
+  ],
+  "sources": [
+    {
+      "title": "U.S. Access Board: Chapter 4, Accessible Routes",
+      "url": "https://www.access-board.gov/ada/chapter/ch04/",
+      "use": "仅引用通行、门洞与路线连续性原则；未复制图纸或全文。游戏尺度自行设定，不构成规范符合性证明。"
+    }
+  ],
+  "query": {
+    "role": "enclosure"
+  },
+  "geometry_license": "CC0-1.0",
+  "documentation": "Original LevelControl case notes; source texts are not redistributed.",
+  "runtime_validation": "not_run",
+  "compiled_entity_count": 23
+}

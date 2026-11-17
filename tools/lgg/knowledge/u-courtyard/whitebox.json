@@ -1,0 +1,892 @@
+{
+  "entities": [
+    {
+      "id": "u-courtyard-01-01-00",
+      "source": "u-courtyard",
+      "template": "blockout/box",
+      "group": "court-ground",
+      "tags": [
+        "build",
+        "court-ground"
+      ],
+      "semantic": {
+        "name": "court-ground",
+        "role": "floor",
+        "area": "main",
+        "provenance": "design",
+        "member_key": "/@court-ground/0",
+        "parent": "u-courtyard-root",
+        "identity_scope": "persistent"
+      },
+      "collision": true,
+      "transform": {
+        "position_cm": [
+          0.0,
+          1000.0,
+          -10.0
+        ],
+        "size_cm": [
+          1600.0,
+          1400.0,
+          20.0
+        ],
+        "rotation_deg": [
+          0,
+          0.0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "u-courtyard-01-01-02",
+      "source": "u-courtyard",
+      "template": "blockout/wall",
+      "group": "u-walls",
+      "tags": [
+        "build",
+        "u-walls"
+      ],
+      "semantic": {
+        "area": "courtyard",
+        "provenance": "design",
+        "role": "wall-segment",
+        "name": "u-walls 1",
+        "parent": "u-courtyard-00-00-01",
+        "member_key": "/@u-walls/0/0",
+        "identity_scope": "persistent"
+      },
+      "collision": true,
+      "transform": {
+        "position_cm": [
+          -700.0,
+          1687.5,
+          200.0
+        ],
+        "size_cm": [
+          200.0,
+          25.0,
+          400.0
+        ],
+        "rotation_deg": [
+          0,
+          0.0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "u-courtyard-01-01-03",
+      "source": "u-courtyard",
+      "template": "blockout/wall",
+      "group": "u-walls",
+      "tags": [
+        "build",
+        "u-walls"
+      ],
+      "semantic": {
+        "area": "courtyard",
+        "provenance": "design",
+        "role": "wall-segment",
+        "name": "u-walls 2",
+        "parent": "u-courtyard-00-00-01",
+        "member_key": "/@u-walls/0/1",
+        "identity_scope": "persistent"
+      },
+      "collision": true,
+      "transform": {
+        "position_cm": [
+          -500.0,
+          1687.5,
+          200.0
+        ],
+        "size_cm": [
+          200.0,
+          25.0,
+          400.0
+        ],
+        "rotation_deg": [
+          0,
+          0.0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "u-courtyard-01-01-04",
+      "source": "u-courtyard",
+      "template": "blockout/wall",
+      "group": "u-walls",
+      "tags": [
+        "build",
+        "u-walls"
+      ],
+      "semantic": {
+        "area": "courtyard",
+        "provenance": "design",
+        "role": "wall-segment",
+        "name": "u-walls 3",
+        "parent": "u-courtyard-00-00-01",
+        "member_key": "/@u-walls/0/2",
+        "identity_scope": "persistent"
+      },
+      "collision": true,
+      "transform": {
+        "position_cm": [
+          -300.0,
+          1687.5,
+          200.0
+        ],
+        "size_cm": [
+          200.0,
+          25.0,
+          400.0
+        ],
+        "rotation_deg": [
+          0,
+          0.0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "u-courtyard-01-01-05",
+      "source": "u-courtyard",
+      "template": "blockout/wall",
+      "group": "u-walls",
+      "tags": [
+        "build",
+        "u-walls"
+      ],
+      "semantic": {
+        "area": "courtyard",
+        "provenance": "design",
+        "role": "wall-segment",
+        "name": "u-walls 4",
+        "parent": "u-courtyard-00-00-01",
+        "member_key": "/@u-walls/0/3",
+        "identity_scope": "persistent"
+      },
+      "collision": true,
+      "transform": {
+        "position_cm": [
+          -100.0,
+          1687.5,
+          200.0
+        ],
+        "size_cm": [
+          200.0,
+          25.0,
+          400.0
+        ],
+        "rotation_deg": [
+          0,
+          0.0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "u-courtyard-01-01-06",
+      "source": "u-courtyard",
+      "template": "blockout/wall",
+      "group": "u-walls",
+      "tags": [
+        "build",
+        "u-walls"
+      ],
+      "semantic": {
+        "area": "courtyard",
+        "provenance": "design",
+        "role": "wall-segment",
+        "name": "u-walls 5",
+        "parent": "u-courtyard-00-00-01",
+        "member_key": "/@u-walls/0/4",
+        "identity_scope": "persistent"
+      },
+      "collision": true,
+      "transform": {
+        "position_cm": [
+          100.0,
+          1687.5,
+          200.0
+        ],
+        "size_cm": [
+          200.0,
+          25.0,
+          400.0
+        ],
+        "rotation_deg": [
+          0,
+          0.0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "u-courtyard-01-01-07",
+      "source": "u-courtyard",
+      "template": "blockout/wall",
+      "group": "u-walls",
+      "tags": [
+        "build",
+        "u-walls"
+      ],
+      "semantic": {
+        "area": "courtyard",
+        "provenance": "design",
+        "role": "wall-segment",
+        "name": "u-walls 6",
+        "parent": "u-courtyard-00-00-01",
+        "member_key": "/@u-walls/0/5",
+        "identity_scope": "persistent"
+      },
+      "collision": true,
+      "transform": {
+        "position_cm": [
+          300.0,
+          1687.5,
+          200.0
+        ],
+        "size_cm": [
+          200.0,
+          25.0,
+          400.0
+        ],
+        "rotation_deg": [
+          0,
+          0.0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "u-courtyard-01-01-08",
+      "source": "u-courtyard",
+      "template": "blockout/wall",
+      "group": "u-walls",
+      "tags": [
+        "build",
+        "u-walls"
+      ],
+      "semantic": {
+        "area": "courtyard",
+        "provenance": "design",
+        "role": "wall-segment",
+        "name": "u-walls 7",
+        "parent": "u-courtyard-00-00-01",
+        "member_key": "/@u-walls/0/6",
+        "identity_scope": "persistent"
+      },
+      "collision": true,
+      "transform": {
+        "position_cm": [
+          500.0,
+          1687.5,
+          200.0
+        ],
+        "size_cm": [
+          200.0,
+          25.0,
+          400.0
+        ],
+        "rotation_deg": [
+          0,
+          0.0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "u-courtyard-01-01-09",
+      "source": "u-courtyard",
+      "template": "blockout/wall",
+      "group": "u-walls",
+      "tags": [
+        "build",
+        "u-walls"
+      ],
+      "semantic": {
+        "area": "courtyard",
+        "provenance": "design",
+        "role": "wall-segment",
+        "name": "u-walls 8",
+        "parent": "u-courtyard-00-00-01",
+        "member_key": "/@u-walls/0/7",
+        "identity_scope": "persistent"
+      },
+      "collision": true,
+      "transform": {
+        "position_cm": [
+          700.0,
+          1687.5,
+          200.0
+        ],
+        "size_cm": [
+          200.0,
+          25.0,
+          400.0
+        ],
+        "rotation_deg": [
+          0,
+          0.0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "u-courtyard-01-01-10",
+      "source": "u-courtyard",
+      "template": "blockout/wall",
+      "group": "u-walls",
+      "tags": [
+        "build",
+        "u-walls"
+      ],
+      "semantic": {
+        "area": "courtyard",
+        "provenance": "design",
+        "role": "wall-segment",
+        "name": "u-walls 1001",
+        "parent": "u-courtyard-00-00-01",
+        "member_key": "/@u-walls/0/1000",
+        "identity_scope": "persistent"
+      },
+      "collision": true,
+      "transform": {
+        "position_cm": [
+          787.5,
+          421.428571,
+          200.0
+        ],
+        "size_cm": [
+          25.0,
+          192.85714285714286,
+          400.0
+        ],
+        "rotation_deg": [
+          0,
+          0.0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "u-courtyard-01-01-11",
+      "source": "u-courtyard",
+      "template": "blockout/wall",
+      "group": "u-walls",
+      "tags": [
+        "build",
+        "u-walls"
+      ],
+      "semantic": {
+        "area": "courtyard",
+        "provenance": "design",
+        "role": "wall-segment",
+        "name": "u-walls 1002",
+        "parent": "u-courtyard-00-00-01",
+        "member_key": "/@u-walls/0/1001",
+        "identity_scope": "persistent"
+      },
+      "collision": true,
+      "transform": {
+        "position_cm": [
+          787.5,
+          614.285714,
+          200.0
+        ],
+        "size_cm": [
+          25.0,
+          192.85714285714286,
+          400.0
+        ],
+        "rotation_deg": [
+          0,
+          0.0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "u-courtyard-01-01-12",
+      "source": "u-courtyard",
+      "template": "blockout/wall",
+      "group": "u-walls",
+      "tags": [
+        "build",
+        "u-walls"
+      ],
+      "semantic": {
+        "area": "courtyard",
+        "provenance": "design",
+        "role": "wall-segment",
+        "name": "u-walls 1003",
+        "parent": "u-courtyard-00-00-01",
+        "member_key": "/@u-walls/0/1002",
+        "identity_scope": "persistent"
+      },
+      "collision": true,
+      "transform": {
+        "position_cm": [
+          787.5,
+          807.142857,
+          200.0
+        ],
+        "size_cm": [
+          25.0,
+          192.85714285714286,
+          400.0
+        ],
+        "rotation_deg": [
+          0,
+          0.0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "u-courtyard-01-01-13",
+      "source": "u-courtyard",
+      "template": "blockout/wall",
+      "group": "u-walls",
+      "tags": [
+        "build",
+        "u-walls"
+      ],
+      "semantic": {
+        "area": "courtyard",
+        "provenance": "design",
+        "role": "wall-segment",
+        "name": "u-walls 1004",
+        "parent": "u-courtyard-00-00-01",
+        "member_key": "/@u-walls/0/1003",
+        "identity_scope": "persistent"
+      },
+      "collision": true,
+      "transform": {
+        "position_cm": [
+          787.5,
+          1000.0,
+          200.0
+        ],
+        "size_cm": [
+          25.0,
+          192.85714285714286,
+          400.0
+        ],
+        "rotation_deg": [
+          0,
+          0.0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "u-courtyard-01-01-14",
+      "source": "u-courtyard",
+      "template": "blockout/wall",
+      "group": "u-walls",
+      "tags": [
+        "build",
+        "u-walls"
+      ],
+      "semantic": {
+        "area": "courtyard",
+        "provenance": "design",
+        "role": "wall-segment",
+        "name": "u-walls 1005",
+        "parent": "u-courtyard-00-00-01",
+        "member_key": "/@u-walls/0/1004",
+        "identity_scope": "persistent"
+      },
+      "collision": true,
+      "transform": {
+        "position_cm": [
+          787.5,
+          1192.857143,
+          200.0
+        ],
+        "size_cm": [
+          25.0,
+          192.85714285714286,
+          400.0
+        ],
+        "rotation_deg": [
+          0,
+          0.0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "u-courtyard-01-01-15",
+      "source": "u-courtyard",
+      "template": "blockout/wall",
+      "group": "u-walls",
+      "tags": [
+        "build",
+        "u-walls"
+      ],
+      "semantic": {
+        "area": "courtyard",
+        "provenance": "design",
+        "role": "wall-segment",
+        "name": "u-walls 1006",
+        "parent": "u-courtyard-00-00-01",
+        "member_key": "/@u-walls/0/1005",
+        "identity_scope": "persistent"
+      },
+      "collision": true,
+      "transform": {
+        "position_cm": [
+          787.5,
+          1385.714286,
+          200.0
+        ],
+        "size_cm": [
+          25.0,
+          192.85714285714286,
+          400.0
+        ],
+        "rotation_deg": [
+          0,
+          0.0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "u-courtyard-01-01-16",
+      "source": "u-courtyard",
+      "template": "blockout/wall",
+      "group": "u-walls",
+      "tags": [
+        "build",
+        "u-walls"
+      ],
+      "semantic": {
+        "area": "courtyard",
+        "provenance": "design",
+        "role": "wall-segment",
+        "name": "u-walls 1007",
+        "parent": "u-courtyard-00-00-01",
+        "member_key": "/@u-walls/0/1006",
+        "identity_scope": "persistent"
+      },
+      "collision": true,
+      "transform": {
+        "position_cm": [
+          787.5,
+          1578.571429,
+          200.0
+        ],
+        "size_cm": [
+          25.0,
+          192.85714285714286,
+          400.0
+        ],
+        "rotation_deg": [
+          0,
+          0.0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "u-courtyard-01-01-17",
+      "source": "u-courtyard",
+      "template": "blockout/wall",
+      "group": "u-walls",
+      "tags": [
+        "build",
+        "u-walls"
+      ],
+      "semantic": {
+        "area": "courtyard",
+        "provenance": "design",
+        "role": "wall-segment",
+        "name": "u-walls 3001",
+        "parent": "u-courtyard-00-00-01",
+        "member_key": "/@u-walls/0/3000",
+        "identity_scope": "persistent"
+      },
+      "collision": true,
+      "transform": {
+        "position_cm": [
+          -787.5,
+          421.428571,
+          200.0
+        ],
+        "size_cm": [
+          25.0,
+          192.85714285714286,
+          400.0
+        ],
+        "rotation_deg": [
+          0,
+          0.0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "u-courtyard-01-01-18",
+      "source": "u-courtyard",
+      "template": "blockout/wall",
+      "group": "u-walls",
+      "tags": [
+        "build",
+        "u-walls"
+      ],
+      "semantic": {
+        "area": "courtyard",
+        "provenance": "design",
+        "role": "wall-segment",
+        "name": "u-walls 3002",
+        "parent": "u-courtyard-00-00-01",
+        "member_key": "/@u-walls/0/3001",
+        "identity_scope": "persistent"
+      },
+      "collision": true,
+      "transform": {
+        "position_cm": [
+          -787.5,
+          614.285714,
+          200.0
+        ],
+        "size_cm": [
+          25.0,
+          192.85714285714286,
+          400.0
+        ],
+        "rotation_deg": [
+          0,
+          0.0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "u-courtyard-01-01-19",
+      "source": "u-courtyard",
+      "template": "blockout/wall",
+      "group": "u-walls",
+      "tags": [
+        "build",
+        "u-walls"
+      ],
+      "semantic": {
+        "area": "courtyard",
+        "provenance": "design",
+        "role": "wall-segment",
+        "name": "u-walls 3003",
+        "parent": "u-courtyard-00-00-01",
+        "member_key": "/@u-walls/0/3002",
+        "identity_scope": "persistent"
+      },
+      "collision": true,
+      "transform": {
+        "position_cm": [
+          -787.5,
+          807.142857,
+          200.0
+        ],
+        "size_cm": [
+          25.0,
+          192.85714285714286,
+          400.0
+        ],
+        "rotation_deg": [
+          0,
+          0.0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "u-courtyard-01-01-20",
+      "source": "u-courtyard",
+      "template": "blockout/wall",
+      "group": "u-walls",
+      "tags": [
+        "build",
+        "u-walls"
+      ],
+      "semantic": {
+        "area": "courtyard",
+        "provenance": "design",
+        "role": "wall-segment",
+        "name": "u-walls 3004",
+        "parent": "u-courtyard-00-00-01",
+        "member_key": "/@u-walls/0/3003",
+        "identity_scope": "persistent"
+      },
+      "collision": true,
+      "transform": {
+        "position_cm": [
+          -787.5,
+          1000.0,
+          200.0
+        ],
+        "size_cm": [
+          25.0,
+          192.85714285714286,
+          400.0
+        ],
+        "rotation_deg": [
+          0,
+          0.0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "u-courtyard-01-01-21",
+      "source": "u-courtyard",
+      "template": "blockout/wall",
+      "group": "u-walls",
+      "tags": [
+        "build",
+        "u-walls"
+      ],
+      "semantic": {
+        "area": "courtyard",
+        "provenance": "design",
+        "role": "wall-segment",
+        "name": "u-walls 3005",
+        "parent": "u-courtyard-00-00-01",
+        "member_key": "/@u-walls/0/3004",
+        "identity_scope": "persistent"
+      },
+      "collision": true,
+      "transform": {
+        "position_cm": [
+          -787.5,
+          1192.857143,
+          200.0
+        ],
+        "size_cm": [
+          25.0,
+          192.85714285714286,
+          400.0
+        ],
+        "rotation_deg": [
+          0,
+          0.0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "u-courtyard-01-01-22",
+      "source": "u-courtyard",
+      "template": "blockout/wall",
+      "group": "u-walls",
+      "tags": [
+        "build",
+        "u-walls"
+      ],
+      "semantic": {
+        "area": "courtyard",
+        "provenance": "design",
+        "role": "wall-segment",
+        "name": "u-walls 3006",
+        "parent": "u-courtyard-00-00-01",
+        "member_key": "/@u-walls/0/3005",
+        "identity_scope": "persistent"
+      },
+      "collision": true,
+      "transform": {
+        "position_cm": [
+          -787.5,
+          1385.714286,
+          200.0
+        ],
+        "size_cm": [
+          25.0,
+          192.85714285714286,
+          400.0
+        ],
+        "rotation_deg": [
+          0,
+          0.0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "u-courtyard-01-01-23",
+      "source": "u-courtyard",
+      "template": "blockout/wall",
+      "group": "u-walls",
+      "tags": [
+        "build",
+        "u-walls"
+      ],
+      "semantic": {
+        "area": "courtyard",
+        "provenance": "design",
+        "role": "wall-segment",
+        "name": "u-walls 3007",
+        "parent": "u-courtyard-00-00-01",
+        "member_key": "/@u-walls/0/3006",
+        "identity_scope": "persistent"
+      },
+      "collision": true,
+      "transform": {
+        "position_cm": [
+          -787.5,
+          1578.571429,
+          200.0
+        ],
+        "size_cm": [
+          25.0,
+          192.85714285714286,
+          400.0
+        ],
+        "rotation_deg": [
+          0,
+          0.0,
+          0
+        ]
+      }
+    }
+  ],
+  "semantic_nodes": {
+    "u-courtyard-root": {
+      "id": "u-courtyard-root",
+      "name": "u-courtyard",
+      "role": "structure",
+      "source": "u-courtyard",
+      "provenance": "design",
+      "identity_scope": "persistent"
+    },
+    "u-courtyard-00-00-01": {
+      "role": "enclosure",
+      "area": "courtyard",
+      "provenance": "design",
+      "name": "u-walls",
+      "id": "u-courtyard-00-00-01",
+      "parent": "u-courtyard-root",
+      "source": "u-courtyard",
+      "member_key": "/@u-walls/0",
+      "identity_scope": "persistent",
+      "local_frame": {
+        "yaw_deg": 0.0,
+        "position_cm": [
+          0.0,
+          1000.0,
+          200.0
+        ]
+      }
+    }
+  },
+  "anchor": {
+    "at": [
+      0.0,
+      10.0,
+      0.0
+    ],
+    "yaw": 0.0
+  }
+}

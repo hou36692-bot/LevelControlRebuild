@@ -1,0 +1,103 @@
+{
+  "slots": {
+    "/@hall-floor/0": 0,
+    "/@west-wall/0": 1,
+    "/@east-wall/0": 2,
+    "@logical/@entrance/0": 3,
+    "/@entrance/0/0": 4,
+    "/@entrance/0/1": 5,
+    "/@entrance/0/2": 6
+  },
+  "nodes": {
+    "hall-corridor-root": {
+      "id": "hall-corridor-root",
+      "name": "hall-corridor",
+      "role": "structure",
+      "source": "hall-corridor",
+      "provenance": "design",
+      "identity_scope": "persistent"
+    },
+    "hall-corridor-00-00-03": {
+      "role": "entrance",
+      "aliases": [
+        "入口门洞"
+      ],
+      "area": "hall",
+      "relations": [
+        {
+          "kind": "opens_to",
+          "target": "hall-corridor-01-01-00"
+        }
+      ],
+      "provenance": "design",
+      "name": "entrance",
+      "id": "hall-corridor-00-00-03",
+      "parent": "hall-corridor-root",
+      "source": "hall-corridor",
+      "member_key": "/@entrance/0",
+      "identity_scope": "persistent",
+      "local_frame": {
+        "yaw_deg": 0.0,
+        "position_cm": [
+          0.0,
+          500.0,
+          200.0
+        ]
+      }
+    }
+  },
+  "entities": {
+    "hall-corridor-01-01-00": {
+      "name": "hall-floor",
+      "role": "floor",
+      "area": "main",
+      "provenance": "design",
+      "member_key": "/@hall-floor/0",
+      "parent": "hall-corridor-root",
+      "identity_scope": "persistent"
+    },
+    "hall-corridor-01-01-01": {
+      "name": "west-wall",
+      "role": "wall",
+      "provenance": "design",
+      "member_key": "/@west-wall/0",
+      "parent": "hall-corridor-root",
+      "identity_scope": "persistent"
+    },
+    "hall-corridor-01-01-02": {
+      "name": "east-wall",
+      "role": "wall",
+      "provenance": "design",
+      "member_key": "/@east-wall/0",
+      "parent": "hall-corridor-root",
+      "identity_scope": "persistent"
+    },
+    "hall-corridor-01-01-04": {
+      "area": "hall",
+      "provenance": "design",
+      "role": "jamb",
+      "name": "entrance 1",
+      "parent": "hall-corridor-00-00-03",
+      "member_key": "/@entrance/0/0",
+      "identity_scope": "persistent"
+    },
+    "hall-corridor-01-01-05": {
+      "area": "hall",
+      "provenance": "design",
+      "role": "jamb",
+      "name": "entrance 2",
+      "parent": "hall-corridor-00-00-03",
+      "member_key": "/@entrance/0/1",
+      "identity_scope": "persistent"
+    },
+    "hall-corridor-01-01-06": {
+      "area": "hall",
+      "provenance": "design",
+      "role": "lintel",
+      "name": "entrance 3",
+      "parent": "hall-corridor-00-00-03",
+      "member_key": "/@entrance/0/2",
+      "identity_scope": "persistent"
+    }
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "name": "extension-overrides",
+  "intent": "extension",
+  "anchor": {
+    "front_m": 3
+  },
+  "nodes": [
+    {
+      "id": "hall-floor",
+      "key": "hall-floor",
+      "asset": "blockout/box",
+      "at": [
+        0,
+        0,
+        -0.1
+      ],
+      "size": [
+        6,
+        12,
+        0.2
+      ],
+      "semantic": {
+        "name": "hall-floor",
+        "role": "floor",
+        "area": "main"
+      }
+    },
+    {
+      "id": "west-wall",
+      "key": "west-wall",
+      "asset": "blockout/box",
+      "at": [
+        -3,
+        0,
+        1.5
+      ],
+      "size": [
+        0.2,
+        12,
+        3
+      ],
+      "semantic": {
+        "name": "west-wall",
+        "role": "wall"
+      }
+    },
+    {
+      "id": "east-wall",
+      "key": "east-wall",
+      "asset": "blockout/box",
+      "at": [
+        3,
+        0,
+        1.5
+      ],
+      "size": [
+        0.2,
+        12,
+        3
+      ],
+      "semantic": {
+        "name": "east-wall",
+        "role": "wall"
+      }
+    },
+    {
+      "id": "entrance",
+      "key": "entrance",
+      "kind": "doorway",
+      "at": [
+        0,
+        -4,
+        2
+      ],
+      "size": [
+        6,
+        0.4,
+        4
+      ],
+      "params": {
+        "opening_m": 2,
+        "opening_height_m": 2.6
+      },
+      "semantic": {
+        "role": "entrance",
+        "aliases": [
+          "入口门洞"
+        ],
+        "area": "hall",
+        "relations": [
+          {
+            "kind": "opens_to",
+            "target": "key:hall-floor"
+          }
+        ]
+      }
+    },
+    {
+      "id": "east-wing",
+      "key": "east-wing",
+      "asset": "blockout/box",
+      "at": [
+        7,
+        2,
+        -0.1
+      ],
+      "size": [
+        8,
+        4,
+        0.2
+      ],
+      "semantic": {
+        "name": "east-wing",
+        "role": "floor",
+        "area": "main"
+      }
+    }
+  ],
+  "constraints": [
+    {
+      "kind": "walk_connectivity",
+      "status": "declared"
+    }
+  ]
+}

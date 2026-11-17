@@ -1,0 +1,29 @@
+{
+  "id": "extension-overrides",
+  "title": "建筑扩建与实例修改",
+  "review_status": "pending_user_review",
+  "tags": [
+    "extension",
+    "override",
+    "identity",
+    "corridor"
+  ],
+  "principles": [
+    "扩建分配新节点键，原入口、墙体和平台身份保持不变。",
+    "移动或删除单件后重放设计应保留覆盖；同字段冲突必须显式处理。"
+  ],
+  "sources": [
+    {
+      "title": "U.S. Access Board: Chapter 4, Accessible Routes",
+      "url": "https://www.access-board.gov/ada/chapter/ch04/",
+      "use": "仅引用通行、门洞与路线连续性原则；未复制图纸或全文。游戏尺度自行设定，不构成规范符合性证明。"
+    }
+  ],
+  "query": {
+    "name": "east-wing"
+  },
+  "geometry_license": "CC0-1.0",
+  "documentation": "Original LevelControl case notes; source texts are not redistributed.",
+  "runtime_validation": "not_run",
+  "compiled_entity_count": 6
+}

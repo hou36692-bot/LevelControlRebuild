@@ -1,0 +1,160 @@
+{
+  "name": "courtyard-columns",
+  "intent": "new_structure",
+  "anchor": {
+    "front_m": 3
+  },
+  "definitions": {
+    "column": {
+      "parts": [
+        {
+          "id": "base",
+          "asset": "blockout/box",
+          "at": [
+            0,
+            0,
+            0.15
+          ],
+          "size": [
+            0.8,
+            0.8,
+            0.3
+          ],
+          "semantic": {
+            "role": "column-base"
+          }
+        },
+        {
+          "id": "shaft",
+          "asset": "blockout/column",
+          "at": [
+            0,
+            0,
+            2
+          ],
+          "size": [
+            0.5,
+            0.5,
+            3.4
+          ],
+          "semantic": {
+            "role": "column-shaft"
+          }
+        },
+        {
+          "id": "capital",
+          "asset": "blockout/box",
+          "at": [
+            0,
+            0,
+            3.85
+          ],
+          "size": [
+            0.8,
+            0.8,
+            0.3
+          ],
+          "semantic": {
+            "role": "column-capital"
+          }
+        }
+      ]
+    }
+  },
+  "nodes": [
+    {
+      "id": "courtyard-floor",
+      "key": "courtyard-floor",
+      "asset": "blockout/box",
+      "at": [
+        0,
+        0,
+        -0.1
+      ],
+      "size": [
+        20,
+        16,
+        0.2
+      ],
+      "semantic": {
+        "name": "courtyard-floor",
+        "role": "floor",
+        "area": "main"
+      }
+    },
+    {
+      "id": "outer-columns",
+      "key": "outer-columns",
+      "use": "column",
+      "at": [
+        -7.5,
+        -6,
+        0
+      ],
+      "repeat": {
+        "count": 6,
+        "step": [
+          3,
+          0,
+          0
+        ],
+        "members": [
+          "column-a",
+          "column-b",
+          "column-c",
+          "column-d",
+          "column-e",
+          "column-f"
+        ]
+      },
+      "semantic": {
+        "name": "外圈廊柱",
+        "role": "column",
+        "area": "courtyard",
+        "pattern": "outer-front",
+        "ring": "outer",
+        "side": "front"
+      }
+    },
+    {
+      "id": "inner-columns",
+      "key": "inner-columns",
+      "use": "column",
+      "at": [
+        -7.5,
+        -3,
+        0
+      ],
+      "repeat": {
+        "count": 6,
+        "step": [
+          3,
+          0,
+          0
+        ],
+        "members": [
+          "column-a",
+          "column-b",
+          "column-c",
+          "column-d",
+          "column-e",
+          "column-f"
+        ]
+      },
+      "semantic": {
+        "name": "内圈廊柱",
+        "role": "column",
+        "area": "courtyard",
+        "pattern": "inner-front",
+        "ring": "inner",
+        "side": "front"
+      }
+    }
+  ],
+  "constraints": [
+    {
+      "kind": "walk_connectivity",
+      "status": "declared"
+    }
+  ]
+}

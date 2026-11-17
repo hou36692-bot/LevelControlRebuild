@@ -1,0 +1,270 @@
+{
+  "entities": [
+    {
+      "id": "extension-overrides-01-01-00",
+      "source": "extension-overrides",
+      "template": "blockout/box",
+      "group": "hall-floor",
+      "tags": [
+        "build",
+        "hall-floor"
+      ],
+      "semantic": {
+        "name": "hall-floor",
+        "role": "floor",
+        "area": "main",
+        "provenance": "design",
+        "member_key": "/@hall-floor/0",
+        "parent": "extension-overrides-root",
+        "identity_scope": "persistent"
+      },
+      "collision": true,
+      "transform": {
+        "position_cm": [
+          0.0,
+          900.0,
+          -10.0
+        ],
+        "size_cm": [
+          600.0,
+          1200.0,
+          20.0
+        ],
+        "rotation_deg": [
+          0,
+          0.0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "extension-overrides-01-01-01",
+      "source": "extension-overrides",
+      "template": "blockout/box",
+      "group": "west-wall",
+      "tags": [
+        "build",
+        "west-wall"
+      ],
+      "semantic": {
+        "name": "west-wall",
+        "role": "wall",
+        "provenance": "design",
+        "member_key": "/@west-wall/0",
+        "parent": "extension-overrides-root",
+        "identity_scope": "persistent"
+      },
+      "collision": true,
+      "transform": {
+        "position_cm": [
+          -300.0,
+          900.0,
+          150.0
+        ],
+        "size_cm": [
+          20.0,
+          1200.0,
+          300.0
+        ],
+        "rotation_deg": [
+          0,
+          0.0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "extension-overrides-01-01-02",
+      "source": "extension-overrides",
+      "template": "blockout/box",
+      "group": "east-wall",
+      "tags": [
+        "build",
+        "east-wall"
+      ],
+      "semantic": {
+        "name": "east-wall",
+        "role": "wall",
+        "provenance": "design",
+        "member_key": "/@east-wall/0",
+        "parent": "extension-overrides-root",
+        "identity_scope": "persistent"
+      },
+      "collision": true,
+      "transform": {
+        "position_cm": [
+          300.0,
+          900.0,
+          150.0
+        ],
+        "size_cm": [
+          20.0,
+          1200.0,
+          300.0
+        ],
+        "rotation_deg": [
+          0,
+          0.0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "extension-overrides-01-01-04",
+      "source": "extension-overrides",
+      "template": "blockout/wall",
+      "group": "entrance",
+      "tags": [
+        "build",
+        "entrance"
+      ],
+      "semantic": {
+        "area": "hall",
+        "provenance": "design",
+        "role": "jamb",
+        "name": "entrance 1",
+        "parent": "extension-overrides-00-00-03",
+        "member_key": "/@entrance/0/0",
+        "identity_scope": "persistent"
+      },
+      "collision": true,
+      "transform": {
+        "position_cm": [
+          -200.0,
+          500.0,
+          200.0
+        ],
+        "size_cm": [
+          200.0,
+          40.0,
+          400.0
+        ],
+        "rotation_deg": [
+          0,
+          0.0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "extension-overrides-01-01-05",
+      "source": "extension-overrides",
+      "template": "blockout/wall",
+      "group": "entrance",
+      "tags": [
+        "build",
+        "entrance"
+      ],
+      "semantic": {
+        "area": "hall",
+        "provenance": "design",
+        "role": "jamb",
+        "name": "entrance 2",
+        "parent": "extension-overrides-00-00-03",
+        "member_key": "/@entrance/0/1",
+        "identity_scope": "persistent"
+      },
+      "collision": true,
+      "transform": {
+        "position_cm": [
+          200.0,
+          500.0,
+          200.0
+        ],
+        "size_cm": [
+          200.0,
+          40.0,
+          400.0
+        ],
+        "rotation_deg": [
+          0,
+          0.0,
+          0
+        ]
+      }
+    },
+    {
+      "id": "extension-overrides-01-01-06",
+      "source": "extension-overrides",
+      "template": "blockout/wall",
+      "group": "entrance",
+      "tags": [
+        "build",
+        "entrance"
+      ],
+      "semantic": {
+        "area": "hall",
+        "provenance": "design",
+        "role": "lintel",
+        "name": "entrance 3",
+        "parent": "extension-overrides-00-00-03",
+        "member_key": "/@entrance/0/2",
+        "identity_scope": "persistent"
+      },
+      "collision": true,
+      "transform": {
+        "position_cm": [
+          0.0,
+          500.0,
+          330.0
+        ],
+        "size_cm": [
+          200.0,
+          40.0,
+          140.0
+        ],
+        "rotation_deg": [
+          0,
+          0.0,
+          0
+        ]
+      }
+    }
+  ],
+  "semantic_nodes": {
+    "extension-overrides-root": {
+      "id": "extension-overrides-root",
+      "name": "extension-overrides",
+      "role": "structure",
+      "source": "extension-overrides",
+      "provenance": "design",
+      "identity_scope": "persistent"
+    },
+    "extension-overrides-00-00-03": {
+      "role": "entrance",
+      "aliases": [
+        "入口门洞"
+      ],
+      "area": "hall",
+      "relations": [
+        {
+          "kind": "opens_to",
+          "target": "extension-overrides-01-01-00"
+        }
+      ],
+      "provenance": "design",
+      "name": "entrance",
+      "id": "extension-overrides-00-00-03",
+      "parent": "extension-overrides-root",
+      "source": "extension-overrides",
+      "member_key": "/@entrance/0",
+      "identity_scope": "persistent",
+      "local_frame": {
+        "yaw_deg": 0.0,
+        "position_cm": [
+          0.0,
+          500.0,
+          200.0
+        ]
+      }
+    }
+  },
+  "anchor": {
+    "at": [
+      0.0,
+      9.0,
+      0.0
+    ],
+    "yaw": 0.0
+  }
+}

@@ -1,0 +1,30 @@
+# Runtime agent configuration. Point command and cwd at your local checkout.
+model = "gpt-6-astra"
+model_reasoning_effort = "low"
+approval_policy = "never"
+sandbox_mode = "read-only"
+developer_instructions = "Use LC tools for world edits. For buildings, one designer publishes lgg_plan then sequential lgg_module deliveries immediately; do not spawn or fork subagents. Geometry is expanded by scripts; only upward height reveal is used. Last module auto-commits geometry/environment. Preserve IDs, obey envelopes and use real construction_status/receipts. Simple edits stay direct. Read the short game AGENTS.md; reuse known help and facts."
+
+[features]
+shell_tool = false
+plugins = false
+apps = false
+multi_agent = false
+memories = false
+skip_host_skill_discovery = true
+
+[mcp_servers.node_repl]
+enabled = false
+
+[mcp_servers.lc]
+command = "python"
+args = ["-m", "lc.mcp_server"]
+cwd = "."
+required = true
+startup_timeout_sec = 15
+tool_timeout_sec = 40
+default_tools_approval_mode = "approve"
+
+[mcp_servers.lc.env]
+PYTHONUTF8 = "1"
+LC_PORT = "18844"

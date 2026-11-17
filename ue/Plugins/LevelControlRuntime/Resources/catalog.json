@@ -1,0 +1,1902 @@
+{
+  "version": 1,
+  "license": "Project-authored procedural geometry",
+  "props": [
+    {
+      "id": "prop/bench",
+      "category": "furniture",
+      "tags": [
+        "furniture",
+        "bench"
+      ],
+      "size_cm": [
+        180.0,
+        53.0,
+        99.5
+      ],
+      "surface": "wood-oak",
+      "mesh": "/Game/LC2/Props/bench",
+      "mesh_size_cm": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "mesh_center_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "imported": true
+    },
+    {
+      "id": "prop/stool",
+      "category": "furniture",
+      "tags": [
+        "furniture",
+        "stool"
+      ],
+      "size_cm": [
+        38.0,
+        38.0,
+        49.0
+      ],
+      "surface": "wood-walnut",
+      "mesh": "/Game/LC2/Props/stool",
+      "mesh_size_cm": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "mesh_center_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "imported": true
+    },
+    {
+      "id": "prop/table",
+      "category": "furniture",
+      "tags": [
+        "furniture",
+        "table"
+      ],
+      "size_cm": [
+        140.0,
+        80.0,
+        79.0
+      ],
+      "surface": "wood-oak",
+      "mesh": "/Game/LC2/Props/table",
+      "mesh_size_cm": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "mesh_center_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "imported": true
+    },
+    {
+      "id": "prop/crate",
+      "category": "storage",
+      "tags": [
+        "storage",
+        "crate"
+      ],
+      "size_cm": [
+        80.0,
+        76.0,
+        84.0
+      ],
+      "surface": "wood-oak",
+      "mesh": "/Game/LC2/Props/crate",
+      "mesh_size_cm": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "mesh_center_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "imported": true
+    },
+    {
+      "id": "prop/barrel",
+      "category": "storage",
+      "tags": [
+        "storage",
+        "barrel"
+      ],
+      "size_cm": [
+        72.0,
+        72.0,
+        90.0
+      ],
+      "surface": "wood-walnut",
+      "mesh": "/Game/LC2/Props/barrel",
+      "mesh_size_cm": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "mesh_center_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "imported": true
+    },
+    {
+      "id": "prop/chest",
+      "category": "storage",
+      "tags": [
+        "storage",
+        "chest"
+      ],
+      "size_cm": [
+        104.0,
+        62.0,
+        71.0
+      ],
+      "surface": "wood-walnut",
+      "mesh": "/Game/LC2/Props/chest",
+      "mesh_size_cm": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "mesh_center_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "imported": true
+    },
+    {
+      "id": "prop/planter",
+      "category": "decoration",
+      "tags": [
+        "decoration",
+        "planter"
+      ],
+      "size_cm": [
+        90.0,
+        70.0,
+        60.0
+      ],
+      "surface": "stone-limestone",
+      "mesh": "/Game/LC2/Props/planter",
+      "mesh_size_cm": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "mesh_center_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "imported": true
+    },
+    {
+      "id": "prop/bollard",
+      "category": "street",
+      "tags": [
+        "street",
+        "bollard"
+      ],
+      "size_cm": [
+        40.0,
+        40.0,
+        90.0
+      ],
+      "surface": "metal-steel",
+      "mesh": "/Game/LC2/Props/bollard",
+      "mesh_size_cm": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "mesh_center_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "imported": true
+    },
+    {
+      "id": "prop/lamppost",
+      "category": "street",
+      "tags": [
+        "street",
+        "lamppost"
+      ],
+      "size_cm": [
+        70.0,
+        70.0,
+        332.0
+      ],
+      "surface": "metal-steel",
+      "mesh": "/Game/LC2/Props/lamppost",
+      "mesh_size_cm": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "mesh_center_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "imported": true
+    },
+    {
+      "id": "prop/signboard",
+      "category": "street",
+      "tags": [
+        "street",
+        "signboard"
+      ],
+      "size_cm": [
+        140.0,
+        12.0,
+        200.0
+      ],
+      "surface": "wood-painted",
+      "mesh": "/Game/LC2/Props/signboard",
+      "mesh_size_cm": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "mesh_center_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "imported": true
+    },
+    {
+      "id": "prop/picnic-table",
+      "category": "furniture",
+      "tags": [
+        "furniture",
+        "picnic-table"
+      ],
+      "size_cm": [
+        180.0,
+        180.0,
+        79.0
+      ],
+      "surface": "wood-oak",
+      "mesh": "/Game/LC2/Props/picnic_table",
+      "mesh_size_cm": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "mesh_center_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "imported": true
+    },
+    {
+      "id": "prop/chair",
+      "category": "furniture",
+      "tags": [
+        "furniture",
+        "chair"
+      ],
+      "size_cm": [
+        48.0,
+        49.0,
+        96.0
+      ],
+      "surface": "wood-walnut",
+      "mesh": "/Game/LC2/Props/chair",
+      "mesh_size_cm": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "mesh_center_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "imported": true
+    },
+    {
+      "id": "prop/desk",
+      "category": "furniture",
+      "tags": [
+        "furniture",
+        "desk"
+      ],
+      "size_cm": [
+        130.0,
+        60.0,
+        79.0
+      ],
+      "surface": "wood-walnut",
+      "mesh": "/Game/LC2/Props/desk",
+      "mesh_size_cm": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "mesh_center_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "imported": true
+    },
+    {
+      "id": "prop/shelf",
+      "category": "storage",
+      "tags": [
+        "storage",
+        "shelf"
+      ],
+      "size_cm": [
+        128.0,
+        40.0,
+        186.0
+      ],
+      "surface": "wood-oak",
+      "mesh": "/Game/LC2/Props/shelf",
+      "mesh_size_cm": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "mesh_center_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "imported": true
+    },
+    {
+      "id": "prop/bookcase",
+      "category": "storage",
+      "tags": [
+        "storage",
+        "bookcase"
+      ],
+      "size_cm": [
+        110.0,
+        38.0,
+        196.0
+      ],
+      "surface": "wood-walnut",
+      "mesh": "/Game/LC2/Props/bookcase",
+      "mesh_size_cm": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "mesh_center_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "imported": true
+    },
+    {
+      "id": "prop/cabinet",
+      "category": "storage",
+      "tags": [
+        "storage",
+        "cabinet"
+      ],
+      "size_cm": [
+        100.0,
+        48.5,
+        110.0
+      ],
+      "surface": "wood-painted",
+      "mesh": "/Game/LC2/Props/cabinet",
+      "mesh_size_cm": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "mesh_center_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "imported": true
+    },
+    {
+      "id": "prop/locker",
+      "category": "storage",
+      "tags": [
+        "storage",
+        "locker"
+      ],
+      "size_cm": [
+        45.0,
+        49.0,
+        200.0
+      ],
+      "surface": "metal-steel",
+      "mesh": "/Game/LC2/Props/locker",
+      "mesh_size_cm": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "mesh_center_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "imported": true
+    },
+    {
+      "id": "prop/rack",
+      "category": "storage",
+      "tags": [
+        "storage",
+        "rack"
+      ],
+      "size_cm": [
+        188.0,
+        75.0,
+        206.0
+      ],
+      "surface": "metal-steel",
+      "mesh": "/Game/LC2/Props/rack",
+      "mesh_size_cm": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "mesh_center_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "imported": true
+    },
+    {
+      "id": "prop/cart",
+      "category": "furniture",
+      "tags": [
+        "furniture",
+        "cart"
+      ],
+      "size_cm": [
+        104.0,
+        72.0,
+        100.0
+      ],
+      "surface": "metal-steel",
+      "mesh": "/Game/LC2/Props/cart",
+      "mesh_size_cm": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "mesh_center_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "imported": true
+    },
+    {
+      "id": "prop/wheelbarrow",
+      "category": "furniture",
+      "tags": [
+        "furniture",
+        "wheelbarrow"
+      ],
+      "size_cm": [
+        180.0,
+        65.0,
+        78.0
+      ],
+      "surface": "metal-rust",
+      "mesh": "/Game/LC2/Props/wheelbarrow",
+      "mesh_size_cm": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "mesh_center_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "imported": true
+    },
+    {
+      "id": "prop/archway",
+      "category": "structure",
+      "tags": [
+        "structure",
+        "archway"
+      ],
+      "size_cm": [
+        295.0,
+        70.0,
+        312.5
+      ],
+      "surface": "stone-limestone",
+      "mesh": "/Game/LC2/Props/archway",
+      "mesh_size_cm": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "mesh_center_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "imported": true
+    },
+    {
+      "id": "prop/gate",
+      "category": "structure",
+      "tags": [
+        "structure",
+        "gate"
+      ],
+      "size_cm": [
+        220.0,
+        12.0,
+        220.0
+      ],
+      "surface": "metal-steel",
+      "mesh": "/Game/LC2/Props/gate",
+      "mesh_size_cm": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "mesh_center_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "imported": true
+    },
+    {
+      "id": "prop/fence",
+      "category": "structure",
+      "tags": [
+        "structure",
+        "fence"
+      ],
+      "size_cm": [
+        220.0,
+        12.0,
+        120.0
+      ],
+      "surface": "wood-oak",
+      "mesh": "/Game/LC2/Props/fence",
+      "mesh_size_cm": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "mesh_center_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "imported": true
+    },
+    {
+      "id": "prop/rail",
+      "category": "structure",
+      "tags": [
+        "structure",
+        "rail"
+      ],
+      "size_cm": [
+        220.0,
+        10.0,
+        104.0
+      ],
+      "surface": "metal-steel",
+      "mesh": "/Game/LC2/Props/rail",
+      "mesh_size_cm": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "mesh_center_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "imported": true
+    },
+    {
+      "id": "prop/stairs",
+      "category": "structure",
+      "tags": [
+        "structure",
+        "stairs"
+      ],
+      "size_cm": [
+        210.0,
+        140.0,
+        108.0
+      ],
+      "surface": "stone-slate",
+      "mesh": "/Game/LC2/Props/stairs",
+      "mesh_size_cm": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "mesh_center_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "imported": true
+    },
+    {
+      "id": "prop/ramp-block",
+      "category": "structure",
+      "tags": [
+        "structure",
+        "ramp-block"
+      ],
+      "size_cm": [
+        210.0,
+        150.0,
+        56.0
+      ],
+      "surface": "stone-limestone",
+      "mesh": "/Game/LC2/Props/ramp_block",
+      "mesh_size_cm": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "mesh_center_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "imported": true
+    },
+    {
+      "id": "prop/podium",
+      "category": "structure",
+      "tags": [
+        "structure",
+        "podium"
+      ],
+      "size_cm": [
+        130.0,
+        100.0,
+        129.5
+      ],
+      "surface": "wood-walnut",
+      "mesh": "/Game/LC2/Props/podium",
+      "mesh_size_cm": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "mesh_center_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "imported": true
+    },
+    {
+      "id": "prop/round-pillar",
+      "category": "structure",
+      "tags": [
+        "structure",
+        "round-pillar"
+      ],
+      "size_cm": [
+        90.0,
+        90.0,
+        280.0
+      ],
+      "surface": "stone-limestone",
+      "mesh": "/Game/LC2/Props/round_pillar",
+      "mesh_size_cm": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "mesh_center_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "imported": true
+    },
+    {
+      "id": "prop/column-base",
+      "category": "structure",
+      "tags": [
+        "structure",
+        "column-base"
+      ],
+      "size_cm": [
+        110.0,
+        110.0,
+        82.5
+      ],
+      "surface": "stone-slate",
+      "mesh": "/Game/LC2/Props/column_base",
+      "mesh_size_cm": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "mesh_center_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "imported": true
+    },
+    {
+      "id": "prop/obelisk",
+      "category": "landmark",
+      "tags": [
+        "landmark",
+        "obelisk"
+      ],
+      "size_cm": [
+        110.0,
+        110.0,
+        325.0
+      ],
+      "surface": "stone-slate",
+      "mesh": "/Game/LC2/Props/obelisk",
+      "mesh_size_cm": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "mesh_center_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "imported": true
+    },
+    {
+      "id": "prop/fountain",
+      "category": "landmark",
+      "tags": [
+        "landmark",
+        "fountain"
+      ],
+      "size_cm": [
+        300.0,
+        300.0,
+        150.0
+      ],
+      "surface": "stone-limestone",
+      "mesh": "/Game/LC2/Props/fountain",
+      "mesh_size_cm": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "mesh_center_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "imported": true
+    },
+    {
+      "id": "prop/well",
+      "category": "landmark",
+      "tags": [
+        "landmark",
+        "well"
+      ],
+      "size_cm": [
+        240.0,
+        180.0,
+        252.5
+      ],
+      "surface": "stone-brick",
+      "mesh": "/Game/LC2/Props/well",
+      "mesh_size_cm": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "mesh_center_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "imported": true
+    },
+    {
+      "id": "prop/birdbath",
+      "category": "decoration",
+      "tags": [
+        "decoration",
+        "birdbath"
+      ],
+      "size_cm": [
+        130.0,
+        130.0,
+        107.5
+      ],
+      "surface": "stone-limestone",
+      "mesh": "/Game/LC2/Props/birdbath",
+      "mesh_size_cm": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "mesh_center_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "imported": true
+    },
+    {
+      "id": "prop/statue-plinth",
+      "category": "landmark",
+      "tags": [
+        "landmark",
+        "statue-plinth"
+      ],
+      "size_cm": [
+        120.0,
+        120.0,
+        182.5
+      ],
+      "surface": "stone-slate",
+      "mesh": "/Game/LC2/Props/statue_plinth",
+      "mesh_size_cm": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "mesh_center_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "imported": true
+    },
+    {
+      "id": "prop/firepit",
+      "category": "decoration",
+      "tags": [
+        "decoration",
+        "firepit"
+      ],
+      "size_cm": [
+        170.0,
+        158.63734711836997,
+        40.0
+      ],
+      "surface": "stone-brick",
+      "mesh": "/Game/LC2/Props/firepit",
+      "mesh_size_cm": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "mesh_center_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "imported": true
+    },
+    {
+      "id": "prop/brazier",
+      "category": "decoration",
+      "tags": [
+        "decoration",
+        "brazier"
+      ],
+      "size_cm": [
+        110.0,
+        110.0,
+        100.0
+      ],
+      "surface": "metal-rust",
+      "mesh": "/Game/LC2/Props/brazier",
+      "mesh_size_cm": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "mesh_center_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "imported": true
+    },
+    {
+      "id": "prop/lantern",
+      "category": "decoration",
+      "tags": [
+        "decoration",
+        "lantern"
+      ],
+      "size_cm": [
+        36.0,
+        36.0,
+        43.0
+      ],
+      "surface": "metal-brass",
+      "mesh": "/Game/LC2/Props/lantern",
+      "mesh_size_cm": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "mesh_center_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "imported": true
+    },
+    {
+      "id": "prop/umbrella",
+      "category": "decoration",
+      "tags": [
+        "decoration",
+        "umbrella"
+      ],
+      "size_cm": [
+        300.0,
+        300.0,
+        262.5
+      ],
+      "surface": "cloth-red",
+      "mesh": "/Game/LC2/Props/umbrella",
+      "mesh_size_cm": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "mesh_center_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "imported": true
+    },
+    {
+      "id": "prop/canopy",
+      "category": "structure",
+      "tags": [
+        "structure",
+        "canopy"
+      ],
+      "size_cm": [
+        320.0,
+        240.0,
+        261.0
+      ],
+      "surface": "cloth-linen",
+      "mesh": "/Game/LC2/Props/canopy",
+      "mesh_size_cm": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "mesh_center_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "imported": true
+    },
+    {
+      "id": "prop/kiosk",
+      "category": "structure",
+      "tags": [
+        "structure",
+        "kiosk"
+      ],
+      "size_cm": [
+        260.0,
+        190.0,
+        247.5
+      ],
+      "surface": "wood-painted",
+      "mesh": "/Game/LC2/Props/kiosk",
+      "mesh_size_cm": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "mesh_center_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "imported": true
+    },
+    {
+      "id": "prop/trashbin",
+      "category": "street",
+      "tags": [
+        "street",
+        "trashbin"
+      ],
+      "size_cm": [
+        64.0,
+        64.0,
+        96.0
+      ],
+      "surface": "metal-steel",
+      "mesh": "/Game/LC2/Props/trashbin",
+      "mesh_size_cm": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "mesh_center_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "imported": true
+    },
+    {
+      "id": "prop/mailbox",
+      "category": "street",
+      "tags": [
+        "street",
+        "mailbox"
+      ],
+      "size_cm": [
+        55.0,
+        80.0,
+        140.0
+      ],
+      "surface": "metal-rust",
+      "mesh": "/Game/LC2/Props/mailbox",
+      "mesh_size_cm": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "mesh_center_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "imported": true
+    },
+    {
+      "id": "prop/hydrant",
+      "category": "street",
+      "tags": [
+        "street",
+        "hydrant"
+      ],
+      "size_cm": [
+        75.0,
+        48.0,
+        102.5
+      ],
+      "surface": "metal-rust",
+      "mesh": "/Game/LC2/Props/hydrant",
+      "mesh_size_cm": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "mesh_center_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "imported": true
+    },
+    {
+      "id": "prop/terminal",
+      "category": "street",
+      "tags": [
+        "street",
+        "terminal"
+      ],
+      "size_cm": [
+        70.0,
+        47.0,
+        160.0
+      ],
+      "surface": "metal-steel",
+      "mesh": "/Game/LC2/Props/terminal",
+      "mesh_size_cm": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "mesh_center_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "imported": true
+    },
+    {
+      "id": "prop/toolbox",
+      "category": "storage",
+      "tags": [
+        "storage",
+        "toolbox"
+      ],
+      "size_cm": [
+        65.0,
+        32.0,
+        44.0
+      ],
+      "surface": "metal-rust",
+      "mesh": "/Game/LC2/Props/toolbox",
+      "mesh_size_cm": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "mesh_center_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "imported": true
+    },
+    {
+      "id": "prop/pallet",
+      "category": "storage",
+      "tags": [
+        "storage",
+        "pallet"
+      ],
+      "size_cm": [
+        120.0,
+        100.0,
+        19.0
+      ],
+      "surface": "wood-oak",
+      "mesh": "/Game/LC2/Props/pallet",
+      "mesh_size_cm": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "mesh_center_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "imported": true
+    },
+    {
+      "id": "prop/roadblock",
+      "category": "street",
+      "tags": [
+        "street",
+        "roadblock"
+      ],
+      "size_cm": [
+        200.0,
+        65.0,
+        95.0
+      ],
+      "surface": "stone-slate",
+      "mesh": "/Game/LC2/Props/roadblock",
+      "mesh_size_cm": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "mesh_center_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "imported": true
+    },
+    {
+      "id": "prop/traffic-cone",
+      "category": "street",
+      "tags": [
+        "street",
+        "traffic-cone"
+      ],
+      "size_cm": [
+        45.0,
+        45.0,
+        73.0
+      ],
+      "surface": "emissive-warm",
+      "mesh": "/Game/LC2/Props/traffic_cone",
+      "mesh_size_cm": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "mesh_center_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "imported": true
+    },
+    {
+      "id": "prop/beacon",
+      "category": "street",
+      "tags": [
+        "street",
+        "beacon"
+      ],
+      "size_cm": [
+        60.0,
+        60.0,
+        135.0
+      ],
+      "surface": "emissive-cool",
+      "mesh": "/Game/LC2/Props/beacon",
+      "mesh_size_cm": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "mesh_center_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "imported": true
+    },
+    {
+      "id": "prop/flagpole",
+      "category": "landmark",
+      "tags": [
+        "landmark",
+        "flagpole"
+      ],
+      "size_cm": [
+        140.0,
+        60.0,
+        440.0
+      ],
+      "surface": "metal-steel",
+      "mesh": "/Game/LC2/Props/flagpole",
+      "mesh_size_cm": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "mesh_center_cm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "imported": true
+    }
+  ],
+  "prefabs": [
+    {
+      "id": "prefab/rest-stop",
+      "category": "prefab",
+      "tags": [
+        "rest-stop"
+      ],
+      "components": [
+        {
+          "name": "part-00",
+          "asset": "prop/bench",
+          "position_cm": [
+            0,
+            0,
+            49.75
+          ],
+          "rotation_deg": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "part-01",
+          "asset": "prop/lamppost",
+          "position_cm": [
+            140,
+            0,
+            166.0
+          ],
+          "rotation_deg": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "part-02",
+          "asset": "prop/trashbin",
+          "position_cm": [
+            -140,
+            0,
+            48.0
+          ],
+          "rotation_deg": [
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prefab/dining-set",
+      "category": "prefab",
+      "tags": [
+        "dining-set"
+      ],
+      "components": [
+        {
+          "name": "part-00",
+          "asset": "prop/table",
+          "position_cm": [
+            0,
+            0,
+            39.5
+          ],
+          "rotation_deg": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "part-01",
+          "asset": "prop/chair",
+          "position_cm": [
+            0,
+            -90,
+            48.0
+          ],
+          "rotation_deg": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "part-02",
+          "asset": "prop/chair",
+          "position_cm": [
+            0,
+            90,
+            48.0
+          ],
+          "rotation_deg": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "part-03",
+          "asset": "prop/chair",
+          "position_cm": [
+            -110,
+            0,
+            48.0
+          ],
+          "rotation_deg": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "part-04",
+          "asset": "prop/chair",
+          "position_cm": [
+            110,
+            0,
+            48.0
+          ],
+          "rotation_deg": [
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prefab/gate-section",
+      "category": "prefab",
+      "tags": [
+        "gate-section"
+      ],
+      "components": [
+        {
+          "name": "part-00",
+          "asset": "prop/gate",
+          "position_cm": [
+            0,
+            0,
+            110.0
+          ],
+          "rotation_deg": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "part-01",
+          "asset": "prop/round-pillar",
+          "position_cm": [
+            -140,
+            0,
+            140.0
+          ],
+          "rotation_deg": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "part-02",
+          "asset": "prop/round-pillar",
+          "position_cm": [
+            140,
+            0,
+            140.0
+          ],
+          "rotation_deg": [
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prefab/courtyard-center",
+      "category": "prefab",
+      "tags": [
+        "courtyard-center"
+      ],
+      "components": [
+        {
+          "name": "part-00",
+          "asset": "prop/fountain",
+          "position_cm": [
+            0,
+            0,
+            75.0
+          ],
+          "rotation_deg": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "part-01",
+          "asset": "prop/bench",
+          "position_cm": [
+            0,
+            -260,
+            49.75
+          ],
+          "rotation_deg": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "part-02",
+          "asset": "prop/bench",
+          "position_cm": [
+            0,
+            260,
+            49.75
+          ],
+          "rotation_deg": [
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prefab/market-stall",
+      "category": "prefab",
+      "tags": [
+        "market-stall"
+      ],
+      "components": [
+        {
+          "name": "part-00",
+          "asset": "prop/canopy",
+          "position_cm": [
+            0,
+            0,
+            130.5
+          ],
+          "rotation_deg": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "part-01",
+          "asset": "prop/table",
+          "position_cm": [
+            0,
+            -50,
+            39.5
+          ],
+          "rotation_deg": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "part-02",
+          "asset": "prop/crate",
+          "position_cm": [
+            120,
+            30,
+            42.0
+          ],
+          "rotation_deg": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "part-03",
+          "asset": "prop/barrel",
+          "position_cm": [
+            -120,
+            30,
+            45.0
+          ],
+          "rotation_deg": [
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prefab/reading-corner",
+      "category": "prefab",
+      "tags": [
+        "reading-corner"
+      ],
+      "components": [
+        {
+          "name": "part-00",
+          "asset": "prop/bookcase",
+          "position_cm": [
+            0,
+            70,
+            98.0
+          ],
+          "rotation_deg": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "part-01",
+          "asset": "prop/chair",
+          "position_cm": [
+            0,
+            -60,
+            48.0
+          ],
+          "rotation_deg": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "part-02",
+          "asset": "prop/lantern",
+          "position_cm": [
+            65,
+            -60,
+            21.5
+          ],
+          "rotation_deg": [
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prefab/workshop",
+      "category": "prefab",
+      "tags": [
+        "workshop"
+      ],
+      "components": [
+        {
+          "name": "part-00",
+          "asset": "prop/desk",
+          "position_cm": [
+            0,
+            0,
+            39.5
+          ],
+          "rotation_deg": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "part-01",
+          "asset": "prop/stool",
+          "position_cm": [
+            0,
+            -70,
+            24.5
+          ],
+          "rotation_deg": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "part-02",
+          "asset": "prop/toolbox",
+          "position_cm": [
+            90,
+            0,
+            22.0
+          ],
+          "rotation_deg": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "part-03",
+          "asset": "prop/rack",
+          "position_cm": [
+            0,
+            100,
+            103.0
+          ],
+          "rotation_deg": [
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prefab/checkpoint",
+      "category": "prefab",
+      "tags": [
+        "checkpoint"
+      ],
+      "components": [
+        {
+          "name": "part-00",
+          "asset": "prop/roadblock",
+          "position_cm": [
+            0,
+            0,
+            47.5
+          ],
+          "rotation_deg": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "part-01",
+          "asset": "prop/traffic-cone",
+          "position_cm": [
+            -150,
+            0,
+            36.5
+          ],
+          "rotation_deg": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "part-02",
+          "asset": "prop/traffic-cone",
+          "position_cm": [
+            150,
+            0,
+            36.5
+          ],
+          "rotation_deg": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "part-03",
+          "asset": "prop/beacon",
+          "position_cm": [
+            190,
+            0,
+            67.5
+          ],
+          "rotation_deg": [
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prefab/monument",
+      "category": "prefab",
+      "tags": [
+        "monument"
+      ],
+      "components": [
+        {
+          "name": "part-00",
+          "asset": "prop/obelisk",
+          "position_cm": [
+            0,
+            0,
+            162.5
+          ],
+          "rotation_deg": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "part-01",
+          "asset": "prop/brazier",
+          "position_cm": [
+            -130,
+            -100,
+            50.0
+          ],
+          "rotation_deg": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "part-02",
+          "asset": "prop/brazier",
+          "position_cm": [
+            130,
+            -100,
+            50.0
+          ],
+          "rotation_deg": [
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "prefab/garden-entry",
+      "category": "prefab",
+      "tags": [
+        "garden-entry"
+      ],
+      "components": [
+        {
+          "name": "part-00",
+          "asset": "prop/archway",
+          "position_cm": [
+            0,
+            0,
+            156.25
+          ],
+          "rotation_deg": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "part-01",
+          "asset": "prop/planter",
+          "position_cm": [
+            -220,
+            0,
+            30.0
+          ],
+          "rotation_deg": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "part-02",
+          "asset": "prop/planter",
+          "position_cm": [
+            220,
+            0,
+            30.0
+          ],
+          "rotation_deg": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "part-03",
+          "asset": "prop/signboard",
+          "position_cm": [
+            320,
+            0,
+            100.0
+          ],
+          "rotation_deg": [
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  ]
+}

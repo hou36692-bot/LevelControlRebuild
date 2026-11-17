@@ -1,0 +1,68 @@
+{
+  "slots": {
+    "/@north-walk/0": 0,
+    "/@south-walk/0": 1,
+    "/@east-walk/0": 2,
+    "/@west-walk/0": 3
+  },
+  "nodes": {
+    "cloister-loop-root": {
+      "id": "cloister-loop-root",
+      "name": "cloister-loop",
+      "role": "structure",
+      "source": "cloister-loop",
+      "provenance": "design",
+      "identity_scope": "persistent"
+    }
+  },
+  "entities": {
+    "cloister-loop-01-01-00": {
+      "name": "north-walk",
+      "role": "corridor",
+      "area": "cloister",
+      "side": "north",
+      "ring": "outer",
+      "pattern": "walk-loop",
+      "provenance": "design",
+      "member_key": "/@north-walk/0",
+      "parent": "cloister-loop-root",
+      "identity_scope": "persistent"
+    },
+    "cloister-loop-01-01-01": {
+      "name": "south-walk",
+      "role": "corridor",
+      "area": "cloister",
+      "side": "south",
+      "ring": "outer",
+      "pattern": "walk-loop",
+      "provenance": "design",
+      "member_key": "/@south-walk/0",
+      "parent": "cloister-loop-root",
+      "identity_scope": "persistent"
+    },
+    "cloister-loop-01-01-02": {
+      "name": "east-walk",
+      "role": "corridor",
+      "area": "cloister",
+      "side": "east",
+      "ring": "outer",
+      "pattern": "walk-loop",
+      "provenance": "design",
+      "member_key": "/@east-walk/0",
+      "parent": "cloister-loop-root",
+      "identity_scope": "persistent"
+    },
+    "cloister-loop-01-01-03": {
+      "name": "west-walk",
+      "role": "corridor",
+      "area": "cloister",
+      "side": "west",
+      "ring": "outer",
+      "pattern": "walk-loop",
+      "provenance": "design",
+      "member_key": "/@west-walk/0",
+      "parent": "cloister-loop-root",
+      "identity_scope": "persistent"
+    }
+  }
+}

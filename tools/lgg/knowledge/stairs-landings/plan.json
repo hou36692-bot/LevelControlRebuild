@@ -1,0 +1,87 @@
+{
+  "name": "stairs-landings",
+  "intent": "new_structure",
+  "anchor": {
+    "front_m": 3
+  },
+  "nodes": [
+    {
+      "id": "lower-platform",
+      "key": "lower-platform",
+      "asset": "blockout/box",
+      "at": [
+        -4,
+        0,
+        -0.1
+      ],
+      "size": [
+        4,
+        3,
+        0.2
+      ],
+      "semantic": {
+        "name": "lower-platform",
+        "role": "floor",
+        "area": "main"
+      }
+    },
+    {
+      "id": "stair-flight",
+      "key": "stair-flight",
+      "kind": "stairs",
+      "at": [
+        0,
+        0,
+        1
+      ],
+      "size": [
+        4,
+        3,
+        2
+      ],
+      "params": {
+        "steps": 10
+      },
+      "semantic": {
+        "role": "stairs",
+        "area": "transition",
+        "relations": [
+          {
+            "kind": "connects_to",
+            "target": "key:lower-platform"
+          },
+          {
+            "kind": "connects_to",
+            "target": "key:upper-platform"
+          }
+        ]
+      }
+    },
+    {
+      "id": "upper-platform",
+      "key": "upper-platform",
+      "asset": "blockout/box",
+      "at": [
+        4,
+        0,
+        1.9
+      ],
+      "size": [
+        4,
+        3,
+        0.2
+      ],
+      "semantic": {
+        "name": "upper-platform",
+        "role": "floor",
+        "area": "main"
+      }
+    }
+  ],
+  "constraints": [
+    {
+      "kind": "walk_connectivity",
+      "status": "declared"
+    }
+  ]
+}

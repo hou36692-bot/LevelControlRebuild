@@ -1,0 +1,266 @@
+{
+  "slots": {
+    "/@court-ground/0": 0,
+    "@logical/@u-walls/0": 1,
+    "/@u-walls/0/0": 2,
+    "/@u-walls/0/1": 3,
+    "/@u-walls/0/2": 4,
+    "/@u-walls/0/3": 5,
+    "/@u-walls/0/4": 6,
+    "/@u-walls/0/5": 7,
+    "/@u-walls/0/6": 8,
+    "/@u-walls/0/7": 9,
+    "/@u-walls/0/1000": 10,
+    "/@u-walls/0/1001": 11,
+    "/@u-walls/0/1002": 12,
+    "/@u-walls/0/1003": 13,
+    "/@u-walls/0/1004": 14,
+    "/@u-walls/0/1005": 15,
+    "/@u-walls/0/1006": 16,
+    "/@u-walls/0/3000": 17,
+    "/@u-walls/0/3001": 18,
+    "/@u-walls/0/3002": 19,
+    "/@u-walls/0/3003": 20,
+    "/@u-walls/0/3004": 21,
+    "/@u-walls/0/3005": 22,
+    "/@u-walls/0/3006": 23
+  },
+  "nodes": {
+    "u-courtyard-root": {
+      "id": "u-courtyard-root",
+      "name": "u-courtyard",
+      "role": "structure",
+      "source": "u-courtyard",
+      "provenance": "design",
+      "identity_scope": "persistent"
+    },
+    "u-courtyard-00-00-01": {
+      "role": "enclosure",
+      "area": "courtyard",
+      "provenance": "design",
+      "name": "u-walls",
+      "id": "u-courtyard-00-00-01",
+      "parent": "u-courtyard-root",
+      "source": "u-courtyard",
+      "member_key": "/@u-walls/0",
+      "identity_scope": "persistent",
+      "local_frame": {
+        "yaw_deg": 0.0,
+        "position_cm": [
+          0.0,
+          1000.0,
+          200.0
+        ]
+      }
+    }
+  },
+  "entities": {
+    "u-courtyard-01-01-00": {
+      "name": "court-ground",
+      "role": "floor",
+      "area": "main",
+      "provenance": "design",
+      "member_key": "/@court-ground/0",
+      "parent": "u-courtyard-root",
+      "identity_scope": "persistent"
+    },
+    "u-courtyard-01-01-02": {
+      "area": "courtyard",
+      "provenance": "design",
+      "role": "wall-segment",
+      "name": "u-walls 1",
+      "parent": "u-courtyard-00-00-01",
+      "member_key": "/@u-walls/0/0",
+      "identity_scope": "persistent"
+    },
+    "u-courtyard-01-01-03": {
+      "area": "courtyard",
+      "provenance": "design",
+      "role": "wall-segment",
+      "name": "u-walls 2",
+      "parent": "u-courtyard-00-00-01",
+      "member_key": "/@u-walls/0/1",
+      "identity_scope": "persistent"
+    },
+    "u-courtyard-01-01-04": {
+      "area": "courtyard",
+      "provenance": "design",
+      "role": "wall-segment",
+      "name": "u-walls 3",
+      "parent": "u-courtyard-00-00-01",
+      "member_key": "/@u-walls/0/2",
+      "identity_scope": "persistent"
+    },
+    "u-courtyard-01-01-05": {
+      "area": "courtyard",
+      "provenance": "design",
+      "role": "wall-segment",
+      "name": "u-walls 4",
+      "parent": "u-courtyard-00-00-01",
+      "member_key": "/@u-walls/0/3",
+      "identity_scope": "persistent"
+    },
+    "u-courtyard-01-01-06": {
+      "area": "courtyard",
+      "provenance": "design",
+      "role": "wall-segment",
+      "name": "u-walls 5",
+      "parent": "u-courtyard-00-00-01",
+      "member_key": "/@u-walls/0/4",
+      "identity_scope": "persistent"
+    },
+    "u-courtyard-01-01-07": {
+      "area": "courtyard",
+      "provenance": "design",
+      "role": "wall-segment",
+      "name": "u-walls 6",
+      "parent": "u-courtyard-00-00-01",
+      "member_key": "/@u-walls/0/5",
+      "identity_scope": "persistent"
+    },
+    "u-courtyard-01-01-08": {
+      "area": "courtyard",
+      "provenance": "design",
+      "role": "wall-segment",
+      "name": "u-walls 7",
+      "parent": "u-courtyard-00-00-01",
+      "member_key": "/@u-walls/0/6",
+      "identity_scope": "persistent"
+    },
+    "u-courtyard-01-01-09": {
+      "area": "courtyard",
+      "provenance": "design",
+      "role": "wall-segment",
+      "name": "u-walls 8",
+      "parent": "u-courtyard-00-00-01",
+      "member_key": "/@u-walls/0/7",
+      "identity_scope": "persistent"
+    },
+    "u-courtyard-01-01-10": {
+      "area": "courtyard",
+      "provenance": "design",
+      "role": "wall-segment",
+      "name": "u-walls 1001",
+      "parent": "u-courtyard-00-00-01",
+      "member_key": "/@u-walls/0/1000",
+      "identity_scope": "persistent"
+    },
+    "u-courtyard-01-01-11": {
+      "area": "courtyard",
+      "provenance": "design",
+      "role": "wall-segment",
+      "name": "u-walls 1002",
+      "parent": "u-courtyard-00-00-01",
+      "member_key": "/@u-walls/0/1001",
+      "identity_scope": "persistent"
+    },
+    "u-courtyard-01-01-12": {
+      "area": "courtyard",
+      "provenance": "design",
+      "role": "wall-segment",
+      "name": "u-walls 1003",
+      "parent": "u-courtyard-00-00-01",
+      "member_key": "/@u-walls/0/1002",
+      "identity_scope": "persistent"
+    },
+    "u-courtyard-01-01-13": {
+      "area": "courtyard",
+      "provenance": "design",
+      "role": "wall-segment",
+      "name": "u-walls 1004",
+      "parent": "u-courtyard-00-00-01",
+      "member_key": "/@u-walls/0/1003",
+      "identity_scope": "persistent"
+    },
+    "u-courtyard-01-01-14": {
+      "area": "courtyard",
+      "provenance": "design",
+      "role": "wall-segment",
+      "name": "u-walls 1005",
+      "parent": "u-courtyard-00-00-01",
+      "member_key": "/@u-walls/0/1004",
+      "identity_scope": "persistent"
+    },
+    "u-courtyard-01-01-15": {
+      "area": "courtyard",
+      "provenance": "design",
+      "role": "wall-segment",
+      "name": "u-walls 1006",
+      "parent": "u-courtyard-00-00-01",
+      "member_key": "/@u-walls/0/1005",
+      "identity_scope": "persistent"
+    },
+    "u-courtyard-01-01-16": {
+      "area": "courtyard",
+      "provenance": "design",
+      "role": "wall-segment",
+      "name": "u-walls 1007",
+      "parent": "u-courtyard-00-00-01",
+      "member_key": "/@u-walls/0/1006",
+      "identity_scope": "persistent"
+    },
+    "u-courtyard-01-01-17": {
+      "area": "courtyard",
+      "provenance": "design",
+      "role": "wall-segment",
+      "name": "u-walls 3001",
+      "parent": "u-courtyard-00-00-01",
+      "member_key": "/@u-walls/0/3000",
+      "identity_scope": "persistent"
+    },
+    "u-courtyard-01-01-18": {
+      "area": "courtyard",
+      "provenance": "design",
+      "role": "wall-segment",
+      "name": "u-walls 3002",
+      "parent": "u-courtyard-00-00-01",
+      "member_key": "/@u-walls/0/3001",
+      "identity_scope": "persistent"
+    },
+    "u-courtyard-01-01-19": {
+      "area": "courtyard",
+      "provenance": "design",
+      "role": "wall-segment",
+      "name": "u-walls 3003",
+      "parent": "u-courtyard-00-00-01",
+      "member_key": "/@u-walls/0/3002",
+      "identity_scope": "persistent"
+    },
+    "u-courtyard-01-01-20": {
+      "area": "courtyard",
+      "provenance": "design",
+      "role": "wall-segment",
+      "name": "u-walls 3004",
+      "parent": "u-courtyard-00-00-01",
+      "member_key": "/@u-walls/0/3003",
+      "identity_scope": "persistent"
+    },
+    "u-courtyard-01-01-21": {
+      "area": "courtyard",
+      "provenance": "design",
+      "role": "wall-segment",
+      "name": "u-walls 3005",
+      "parent": "u-courtyard-00-00-01",
+      "member_key": "/@u-walls/0/3004",
+      "identity_scope": "persistent"
+    },
+    "u-courtyard-01-01-22": {
+      "area": "courtyard",
+      "provenance": "design",
+      "role": "wall-segment",
+      "name": "u-walls 3006",
+      "parent": "u-courtyard-00-00-01",
+      "member_key": "/@u-walls/0/3005",
+      "identity_scope": "persistent"
+    },
+    "u-courtyard-01-01-23": {
+      "area": "courtyard",
+      "provenance": "design",
+      "role": "wall-segment",
+      "name": "u-walls 3007",
+      "parent": "u-courtyard-00-00-01",
+      "member_key": "/@u-walls/0/3006",
+      "identity_scope": "persistent"
+    }
+  }
+}
